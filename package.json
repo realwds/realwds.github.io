@@ -1,0 +1,27 @@
+{
+  "name": "realwds.github.io",
+  "version": "1.0.0",
+  "description": "Hello, 3Q ",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realwds/realwds.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realwds/realwds.github.io/issues"
+  },
+  "homepage": "https://github.com/realwds/realwds.github.io#readme"
+}
