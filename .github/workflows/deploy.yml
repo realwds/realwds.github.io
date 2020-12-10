@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  build-and-deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -17,3 +17,17 @@ jobs:
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
         BUILD_SCRIPT: npm install && npm run build
+
+  mirror_to_gitee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v1
+        
+      - name: 'Mirror to gitee'
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url:
+            git@gitee.com:realwds/realwds.git
+          ssh_private_key:
+            ${{ secrets.GITEE_KEY }}      
