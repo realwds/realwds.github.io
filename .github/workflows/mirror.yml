@@ -1,6 +1,9 @@
 name: MIRROR CI
 
-on: [push, delete]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   mirror_to_gitee:
