@@ -16,15 +16,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
-
-    - name: Checkout
-      uses: actions/checkout@v1
-
-    - name: 'Mirror to gitee'
-      uses: pixta-dev/repository-mirroring-action@v1
-      with:
-        target_repo_url:
-          git@gitee.com:realwds/realwds.git
-        ssh_private_key:
-          ${{ secrets.GITEE_KEY }}      
+        BUILD_SCRIPT: npm install && npm run build  
