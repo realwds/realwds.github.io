@@ -33,6 +33,8 @@ module.exports = {
   plugins: [
     // nprogress顶部进度条
     '@vuepress/nprogress',
+    // 回到顶部
+    '@vuepress/back-to-top',
     // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
     [
       'thirdparty-search',
