@@ -18,6 +18,9 @@ jobs:
         FOLDER: docs/.vuepress/dist
         BUILD_SCRIPT: npm install && npm run build
 
+    - name: Checkout
+      uses: actions/checkout@v1
+
     - name: 'Mirror to gitee'
       uses: pixta-dev/repository-mirroring-action@v1
       with:
