@@ -6,9 +6,6 @@ sidebar: auto
 article: true
 ---
 
-## 📚 Description
-这是一个兼具博客文章、知识管理、文档查找的个人网站，主要内容是Web前端技术。 ( •̀ ω •́ )✧
-
 ## 🐼 About Me
 数学系的挨踢者
 
