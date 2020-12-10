@@ -8,6 +8,7 @@ module.exports = [
       { text: 'one', link: '/more/one' },
       { text: 'two', link: '/more/two' },
       { text: 'three', link: '/more/three' },
+      { text: 'four', link: '/more/four' },
     ],
   }    
 ]
