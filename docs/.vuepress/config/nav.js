@@ -5,10 +5,9 @@ module.exports = [
     text: 'More', 
     link: '/more/',
     items: [
-      { text: 'one', link: '/more/one' },
+      { text: '奇技淫巧', link: '/more/one' },
       { text: 'two', link: '/more/two' },
-      { text: 'three', link: '/more/three' },
-      { text: 'four', link: '/more/four' },
+      { text: 'three', link: '/more/three' }
     ]
   },
   { 

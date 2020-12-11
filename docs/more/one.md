@@ -1,70 +1,65 @@
-<h1 align="center">Alejandro's Website</h1>
+---
+title: 奇技淫巧
+date: 2020-12-11 15:35:01
+permalink: /more/one
+sidebar: auto
+article: true
+---
 
-<p align="center">
-<a href="https://circleci.com/gh/realwds/realwds.github.io/tree/master"><img src="https://img.shields.io/circleci/project/github/realwds/realwds.github.io/master.svg?sanitize=true" alt="Build Status"></a> <a href="https://github.com/realwds/realwds.github.io/actions"><img src="https://github.com/realwds/realwds.github.io/workflows/TEST CI/badge.svg?sanitize=true" alt="TEST CI Status"></a> <a href="https://github.com/realwds/realwds.github.io/actions"><img src="https://github.com/realwds/realwds.github.io/workflows/DEPLOY CI/badge.svg?sanitize=true" alt="DEPLOY CI Status"></a> <a href="https://github.com/realwds/realwds.github.io/actions"><img src="https://github.com/realwds/realwds.github.io/workflows/MIRROR CI/badge.svg?sanitize=true" alt="MIRROR CI Status"></a>
-</p>
+## GitHub国内加速访问
 
-<img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='哈哈哈哈'>
+#### 1、访问 https://www.ipaddress.com/ip-lookup
 
-## GitHub Action 自动部署到 GitHub Page
+#### 2、分别查询以下 5个链接 对应的 IP地址，查询一个之后，在下面的“Perform another IP Lookup”框里可以继续查询。
 
-``` yaml
-name: DEPLOY CI
-on:
-  push:
-    branches:
-      - master
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
+1. github.com
+2. gist.github.com
+3. github.global.ssl.fastly.net
+4. assets-cdn.github.com
+5. raw.githubusercontent.com
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
+assets-cdn.github.com 查询得到如下四个链接，请使用cmd分别ping四个链接，查看访问速度最快的（ctrl+C结束ping）
+
+> 185.199.108.153
+>
+> 185.199.109.153
+>
+> 185.199.110.153
+>
+> 185.199.111.153
+
+#### 3、修改hosts文件，添加内容（因为每个人网络环境不同，请务必自行采用本地查询结果，不要直接复制！！！）
+
+```
+140.82.114.4 github.com
+140.82.114.3 gist.github.com
+199.232.69.194 github.global.ssl.fastly.net
+185.199.109.153 assets-cdn.github.com
+199.232.96.133 raw.githubusercontent.com
+199.232.96.133 gist.githubusercontent.com
+199.232.96.133 cloud.githubusercontent.com
+199.232.96.133 camo.githubusercontent.com
+199.232.96.133 avatars0.githubusercontent.com
+199.232.96.133 avatars1.githubusercontent.com
+199.232.96.133 avatars2.githubusercontent.com
+199.232.96.133 avatars3.githubusercontent.com
+199.232.96.133 avatars4.githubusercontent.com
+199.232.96.133 avatars5.githubusercontent.com
+199.232.96.133 avatars6.githubusercontent.com
+199.232.96.133 avatars7.githubusercontent.com
+199.232.96.133 avatars8.githubusercontent.com
 ```
 
+> windows系统的hosts文件的位置如下：`C:\Windows\System32\drivers\etc\host`
+>
+> mac/linux系统的hosts文件的位置如下：`/etc/hosts`
 
-## GitHub Action 自动部署到 Gitee & GitLab
+因为需要管理员权限，无法直接在文件上修改，请复制hosts到桌面，更改之后再复制替换。
 
-``` yaml
-name: MIRROR CI
-on:
-  push:
-    branches:
-      - master
-jobs:
-  mirror_to_gitee:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout'
-        uses: actions/checkout@v1
-      - name: 'Mirror to gitee'
-        uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            git@gitee.com:tsund/test.git
-          ssh_private_key:
-            ${{ secrets.GITEE_KEY }}
+#### 4.cmd运行以下代码刷新DNS
 
-  mirror_to_gitlab:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout'
-        uses: actions/checkout@v1
-      - name: 'Mirror to gitlab'
-        uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            git@gitlab.com:tsund/test.git
-          ssh_private_key:
-            ${{ secrets.GITLAB_KEY }}
+```
+ipconfig /flushdns
 ```
 
-Copyright (c) 2020-present, realwds
+#### 5.打开Github进行测试，成功！
