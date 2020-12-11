@@ -31,6 +31,9 @@ module.exports = {
     smoothScroll: true, //页面滚动
     sidebar: 'auto',
   },
+  markdown: {
+    lineNumbers: true, // 代码行号
+  },
   plugins: [
     // nprogress顶部进度条
     '@vuepress/nprogress',
@@ -66,5 +69,12 @@ module.exports = {
         },
       },
     ],
+    // 代码块复制
+    ['one-click-copy', {
+      copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
+      copyMessage: 'Copy successfully and then paste it for use.', // default is 'Copy successfully and then paste it for use.'
+      duration: 1200, // prompt message display time.
+      showInMobile: false // whether to display on the mobile side, default: false.
+    }]
   ]
 }

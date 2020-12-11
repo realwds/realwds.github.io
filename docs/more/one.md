@@ -8,7 +8,8 @@
 
 ## GitHub Action 自动部署到 GitHub Page
 
-```
+``` yml
+
 name: DEPLOY CI
 on:
   push:
@@ -28,12 +29,14 @@ jobs:
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
         BUILD_SCRIPT: npm install && npm run build
+
 ```
 
 
 ## GitHub Action 自动部署到 Gitee & GitLab
 
-```
+``` yml
+
 name: MIRROR CI
 on:
   push:
@@ -65,6 +68,7 @@ jobs:
             git@gitlab.com:tsund/test.git
           ssh_private_key:
             ${{ secrets.GITLAB_KEY }}
+
 ```
 
 Copyright (c) 2020-present, realwds
