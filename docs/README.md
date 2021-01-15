@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/home.png
+heroImage: https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210115180321.png
 heroText: 个人站点
 tagline: 此刻我独领风骚
 actionText: 开始了解 →

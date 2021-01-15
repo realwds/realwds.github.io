@@ -1,7 +1,7 @@
 const nav = require('./config/nav.js')
 
 module.exports = {
-  base: './',
+  base: '/',
   dest: 'public',
   title: 'Alejandro\'s Website',
   description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
