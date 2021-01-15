@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /home.png
+heroImage: /img/home.png
 heroText: 个人站点
 tagline: 此刻我独领风骚
 actionText: 开始了解 →
