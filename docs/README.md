@@ -1,16 +1,21 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg
-heroText: Alejandro's Website
-tagline: I want to tell you somthing
+heroImage: /img/home.png
+heroText: 个人站点
+tagline: 此刻我独领风骚
 actionText: 开始了解 →
 actionLink: /about/
 # features:
-# - title: 简洁至上
-#   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-# - title: Vue驱动
-#   details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-# - title: 高性能
-#   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+# - title: 学习
+#   details: 学习使我快乐
+# - title: 生活
+#   details: 享受生活
+# - title: 娱乐
+#   details: 开开心心每一天
 footer: MIT Licensed | Copyright © 2020 realwds
 ---
+
+<div style="text-align:center">
+<p style="font-size:22px">精致的五官是心动的开始，迷人的气质是动情的深渊</p>  
+<p style="font-size:18px">Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.</p>  
+</div>

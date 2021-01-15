@@ -20,7 +20,7 @@ module.exports = {
   ],
   themeConfig: {
     nav,
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // repo: 'realwds/realwds.github.io', // 导航栏右侧生成Github链接
     // repoLabel: 'GitHub',
     searchMaxSuggestions: 10, // 搜索结果显示最大数

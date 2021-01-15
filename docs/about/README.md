@@ -1,9 +1,5 @@
 ---
-title: About Alejandro
-date: 2019-12-25 14:27:01
-permalink: /about
 sidebar: auto
-article: true
 ---
 
 ## 🐼 About Me

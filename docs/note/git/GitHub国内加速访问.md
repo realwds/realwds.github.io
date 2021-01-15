@@ -1,11 +1,3 @@
----
-title: 奇技淫巧
-date: 2020-12-11 15:35:01
-permalink: /more/one
-sidebar: auto
-article: true
----
-
 ## GitHub国内加速访问
 
 #### 1、访问  [https://www.ipaddress.com/ip-lookup](https://www.ipaddress.com/ip-lookup)
