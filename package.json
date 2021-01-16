@@ -1,7 +1,7 @@
 {
   "name": "realwds.github.io",
   "version": "1.0.0",
-  "description": "Hello, 3Q ",
+  "description": "Delicate facial features are the beginning of the heart, charming temperament is the abyss of emotion.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-nprogress": "^1.7.1",
+    "markdown-it-include": "^2.0.0",
     "moment": "^2.29.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2"

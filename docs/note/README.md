@@ -6,5 +6,5 @@ sidebar: auto
 
 ## GIT 相关
 
-- [**GitHub国内加速访问**](/note/git/GitHub国内加速访问)
-- [**GitPage三合一网站部署**](/note/git/GitPage三合一网站部署)
+- [**GitHub国内加速访问**](/note/git/GitHub国内加速访问.md)
+- [**GitPage三合一网站部署**](/note/git/GitPage三合一网站部署.md)

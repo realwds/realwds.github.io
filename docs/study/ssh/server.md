@@ -1,3 +1,8 @@
+---
+prev: ./key.md
+next: ./port-forwarding.md
+---
+
 # SSH 服务器
 
 ## 简介

@@ -1,3 +1,8 @@
+---
+prev: ./rsync.md
+next: ./sftp.md
+---
+
 # rsync 命令
 
 ## 简介

@@ -1,3 +1,8 @@
+---
+prev: ./port-forwarding.md
+next: ./scp.md
+---
+
 # SSH 证书登录
 
 SSH 是服务器登录工具，一般情况下都采用密码登录或密钥登录。

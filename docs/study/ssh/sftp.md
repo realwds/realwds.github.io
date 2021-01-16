@@ -1,3 +1,8 @@
+---
+prev: ./sftp.md
+next: false
+---
+
 # sftp 命令
 
 `sftp`是 SSH 提供的一个客户端应用程序，主要用来安全地访问 FTP。因为 FTP 是不加密协议，很不安全，`sftp`就相当于将 FTP 放入了 SSH。

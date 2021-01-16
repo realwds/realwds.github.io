@@ -1,3 +1,8 @@
+---
+prev: ./server.md
+next: ./ca.md
+---
+
 # SSH 端口转发
 
 ## 简介

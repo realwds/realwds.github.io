@@ -1,38 +1,39 @@
 const nav = require('./config/nav.js')
+const head = require('./config/head.js')
 
 module.exports = {
   base: '/',
   dest: 'public',
   title: 'Alejandro\'s Website',
   description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
-  head: [
-    // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'icon', href: '/favicon.ico' }], //favicons，资源放在public文件夹
-    [
-      'meta',
-      {
-        name: 'keywords',
-        content:
-          '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
-      },
-    ],
-    // ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'}], // 移动端阻止页面缩放
-  ],
+  head,
   themeConfig: {
+    logo: '/img/home.png',
     nav,
+    sidebar: 'auto',
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // repo: 'realwds/realwds.github.io', // 导航栏右侧生成Github链接
     // repoLabel: 'GitHub',
+    // editLinks: true, // 启用编辑
+    // docsDir: 'docs', // 编辑的文件夹
+    // editLinkText: '在 GitHub 上编辑此页！',
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
-    // docsDir: 'docs', // 编辑的文件夹
-    // editLinks: true, // 启用编辑
-    // editLinkText: '帮助我们改善此页面！',
     smoothScroll: true, //页面滚动
-    sidebar: 'auto',
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@public': './public'
+      }
+    }
   },
   markdown: {
     lineNumbers: true, // 代码行号
+    config: md => {
+      // use more markdown-it plugins!
+      md.use(require('markdown-it-include'))
+    }
   },
   plugins: [
     // nprogress顶部进度条
@@ -72,7 +73,7 @@ module.exports = {
     // 代码块复制
     ['one-click-copy', {
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
-      copyMessage: 'Copy successfully and then paste it for use.', // default is 'Copy successfully and then paste it for use.'
+      copyMessage: '复制成功 >>>', // default is 'Copy successfully and then paste it for use.'
       duration: 1200, // prompt message display time.
       showInMobile: false // whether to display on the mobile side, default: false.
     }]

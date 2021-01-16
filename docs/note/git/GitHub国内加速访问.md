@@ -1,4 +1,11 @@
-## GitHub国内加速访问
+---
+prev: false
+next: ./GitPage三合一网站部署.md
+tags:
+  - git部署
+---
+
+## GitHub国内加速访问 <Badge text="new" />
 
 #### 1、访问  [https://www.ipaddress.com/ip-lookup](https://www.ipaddress.com/ip-lookup)
 
@@ -22,7 +29,7 @@ assets-cdn.github.com 查询得到如下四个链接，请使用cmd分别ping四
 
 #### 3、修改hosts文件，添加内容（因为每个人网络环境不同，请自行采用本地查询结果，不要直接复制！！！）
 
-```
+```md
 140.82.114.4 github.com
 140.82.114.3 gist.github.com
 199.232.69.194 github.global.ssl.fastly.net
@@ -50,7 +57,7 @@ assets-cdn.github.com 查询得到如下四个链接，请使用cmd分别ping四
 
 #### 4.cmd运行以下代码刷新DNS
 
-```
+```md
 ipconfig /flushdns
 ```
 

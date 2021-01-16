@@ -1,3 +1,8 @@
+---
+prev: ./basic.md
+next: ./key.md
+---
+
 # SSH 客户端
 
 ## 简介
