@@ -1,18 +1,15 @@
----
-sidebar: auto
----
+## 关于我
 
-## 🐼 About Me
-数学系的挨踢者
+::: tip 介绍
+2014届安徽科技学院毕业生，数学系的挨踢者。现居浙江杭州，前端小菜鸟一枚。
+:::
 
 <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'>
 
 
-## :email: Contact Me
-
 - **WeChat or QQ**: <a :href="qqUrl" class='qq'>1483166698</a>
-- **Email**:  <a href="mailto:1483166698@qq.com">1483166698@qq.com</a>
-- **GitHub**: <https://github.com/realwds>
+- **Email**:  <a href="mailto:disnot@qq.com">disnot@qq.com</a>
+- **GitHub**: <https://git.io/JtUkt>
 
 <script>
   export default {
