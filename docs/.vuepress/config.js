@@ -4,7 +4,7 @@ const head = require('./config/head.js')
 module.exports = {
   base: '/',
   dest: 'public',
-  title: 'Alejandro\'s Website',
+  title: 'realwds\'s website',
   description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
   head,
   themeConfig: {
