@@ -5,8 +5,13 @@
 现居浙江杭州，前端打字员，最常用的按键 ```CTRL+C``` ```CTRL+V```。
 :::
 
-<img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'>
+<!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
 
+### 我的足迹：
+
+<iframe src="https://realwds.gitee.io/footprint/" style="border:0;width:100%;height:380px;"></iframe>  
+
+### 联系方式：
 
 - **WeChat or QQ**: <a :href="qqUrl" class='qq'>1483166698</a>
 - **Email**:  <a href="mailto:disnot@qq.com">disnot@qq.com</a>
