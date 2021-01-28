@@ -1,16 +1,13 @@
-const nav = require('./config/nav.js')
-const head = require('./config/head.js')
-
 module.exports = {
   base: '/',
   dest: 'public',
   title: 'realwds\'s website',
   description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
-  head,
+  head:  require('./config/head.js'),
   themeConfig: {
     logo: '/img/home.png',
-    nav,
-    sidebar: 'auto',
+    nav: require('./config/nav.js'),
+    sidebar: require("./config/sidebar"),
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // repo: 'realwds/realwds.github.io', // 导航栏右侧生成Github链接
     // repoLabel: 'GitHub',
