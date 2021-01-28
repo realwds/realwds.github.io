@@ -2,16 +2,19 @@ module.exports = {
   base: '/',
   dest: 'public',
   head:  require('./config/head'),
+  description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'realwds\'s website',
-      description: 'How are you? i\'am fine, thanks. and you? Hello,3Q'
+      title: 'realwds\'s website'
     },
     '/en/': {
       lang: 'en-US',
-      title: 'realwds\'s website',
-      description: 'How are you? i\'am fine, thanks. and you? Hello,3Q'
+      title: 'realwds\'s website'
+    },
+    '/jp/': {
+      lang: 'ja-JP',
+      title: 'realwds\'s ホームページ'
     }
   },
   themeConfig: {
@@ -26,7 +29,7 @@ module.exports = {
     locales: {
       '/': {
         label: '简体中文',
-        selectText: '选择语言',
+        selectText: '多语言',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
         nav: require('./config/nav'),
@@ -34,11 +37,19 @@ module.exports = {
       },
       '/en/': {
         label: 'English',
-        selectText: 'Languages',
+        selectText: 'Translations',
         editLinkText: 'Edit this page on GitHub',
         lastUpdated: 'Last Updated',
         nav: require('./config/nav-en'),
         sidebar: require('./config/sidebar-en')
+      },
+      '/jp/': {
+        label: '日本語',
+        selectText: '言語',
+        editLinkText: 'GitHubでこのページを編集します',
+        lastUpdated: '前回の更新',
+        nav: require('./config/nav-jp'),
+        sidebar: require('./config/sidebar-jp')
       }
     }
   },
