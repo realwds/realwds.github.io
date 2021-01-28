@@ -15,6 +15,10 @@ module.exports = {
     '/jp/': {
       lang: 'ja-JP',
       title: 'realwds\'s ホームページ'
+    },
+    '/kr/': {
+      lang: 'ko-KR',
+      title: 'realwds\'s 사이트'
     }
   },
   themeConfig: {
@@ -50,6 +54,14 @@ module.exports = {
         lastUpdated: '前回の更新',
         nav: require('./config/nav-jp'),
         sidebar: require('./config/sidebar-jp')
+      },
+      '/kr/': {
+        label: '한국어',
+        selectText: '다른 언어로 보기',
+        editLinkText: 'GitHub 에서 이 페이지 를 편집 합 니 다',
+        lastUpdated: '저번 업데이트',
+        nav: require('./config/nav-kr'),
+        sidebar: require('./config/sidebar-kr')
       }
     }
   },
