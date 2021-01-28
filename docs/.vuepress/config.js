@@ -1,22 +1,46 @@
 module.exports = {
   base: '/',
   dest: 'public',
-  title: 'realwds\'s website',
-  description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
-  head:  require('./config/head.js'),
+  head:  require('./config/head'),
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'realwds\'s website',
+      description: 'How are you? i\'am fine, thanks. and you? Hello,3Q'
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'realwds\'s website',
+      description: 'How are you? i\'am fine, thanks. and you? Hello,3Q'
+    }
+  },
   themeConfig: {
     logo: '/img/home.png',
-    nav: require('./config/nav.js'),
-    sidebar: require("./config/sidebar"),
-    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    // sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     // repo: 'realwds/realwds.github.io', // 导航栏右侧生成Github链接
     // repoLabel: 'GitHub',
-    // editLinks: true, // 启用编辑
-    // docsDir: 'docs', // 编辑的文件夹
-    // editLinkText: '在 GitHub 上编辑此页！',
+    editLinks: false, // 启用编辑
+    docsDir: 'docs', // 编辑的文件夹
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     smoothScroll: true, //页面滚动
+    locales: {
+      '/': {
+        label: '简体中文',
+        selectText: '选择语言',
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdated: '上次更新',
+        nav: require('./config/nav'),
+        sidebar: require('./config/sidebar')
+      },
+      '/en/': {
+        label: 'English',
+        selectText: 'Languages',
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        nav: require('./config/nav-en'),
+        sidebar: require('./config/sidebar-en')
+      }
+    }
   },
   configureWebpack: {
     resolve: {

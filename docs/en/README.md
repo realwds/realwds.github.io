@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /img/home.png
-heroText: 个人站点
-tagline: 此刻我独领风骚
-actionText: 开始了解 →
-actionLink: /zh/about/
+heroText: Personal Website
+tagline: At the moment, I'm in the lead
+actionText: Start →
+actionLink: /en/about/
 # features:
 # - title: 学习
 #   details: 学习使我快乐

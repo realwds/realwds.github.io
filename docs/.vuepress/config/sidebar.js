@@ -1,7 +1,8 @@
 module.exports = {
-  "/website/": ["../../website/"],
-  "/article/": ["../../article/"],
-  "/study/git/": [
+  "/zh/website/": ["../../zh/website/"],
+  "/zh/article/": ["../../zh/article/"],
+  "/zh/study/git/": [
+    "../../study/git/1-1.常用Git命令清单",
     "../../study/git/1-1.常用Git命令清单",
     "../../study/git/1-2.Git变基合并",
     "../../study/git/1-3.Git命令思维导图",
@@ -17,7 +18,7 @@ module.exports = {
     "../../study/git/2-10.Git工具-重写历史",
     "../../study/git/2-11.Git工具-重置揭密"	
   ],
-  "/study/ssh/": [
+  "/zh/study/ssh/": [
     "../../study/ssh/basic",
     "../../study/ssh/client",
     "../../study/ssh/key",
