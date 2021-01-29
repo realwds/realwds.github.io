@@ -85,9 +85,7 @@ module.exports = {
     // 回到顶部
     '@vuepress/back-to-top',
     // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-    [
-      'thirdparty-search',
-      {
+    ['thirdparty-search',{
         thirdparty: [
           {
             title: '在Bing中搜索',
@@ -105,9 +103,7 @@ module.exports = {
       }
     ],
     // "上次更新"时间格式
-    [
-      '@vuepress/last-updated',
-      {
+    ['@vuepress/last-updated',{
         transformer: (timestamp, lang) => {
           const moment = require('moment')
           return moment(timestamp).format('YYYY/MM/DD, hh:mm:ss')
@@ -122,12 +118,31 @@ module.exports = {
       showInMobile: false // whether to display on the mobile side, default: false.
     }],
     // 评论 https://leancloud.cn
-    [
-      '@vuepress/register-components',
-      {
+    ['@vuepress/register-components',{
         componentsDir: './components'
       }
     ]
-    
+    // pwa 支持
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: {
+        '/': {
+          message: "发现新内容可用",
+          buttonText: "刷新"
+        },
+        '/en/': {
+          message: "New content is available",
+          buttonText: "Refresh"
+        },
+        '/jp/': {
+          message: "新しい内容が利用可能であることを発見しました",
+          buttonText: "更新"
+        },
+        '/kr/': {
+          message: "새로운 내용 을 발견 하면 사용 가능",
+          buttonText: "새로 고침"
+        }
+      }
+    }],
   ]
 }
