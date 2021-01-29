@@ -85,31 +85,27 @@ module.exports = {
     // 回到顶部
     '@vuepress/back-to-top',
     // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-    ['thirdparty-search',{
-        thirdparty: [
-          {
-            title: '在Bing中搜索',
-            frontUrl: 'https://cn.bing.com/search?q=',
-          },
-          {
-            title: '在Baidu中搜索',
-            frontUrl: 'https://www.baidu.com/s?ie=UTF-8&wd=',
-          },
-          {
-            title: '在GitHub中搜索',
-            frontUrl: 'https://github.com/search?q=',
-          }
-        ]
-      }
-    ],
-    // "上次更新"时间格式
-    ['@vuepress/last-updated',{
-        transformer: (timestamp, lang) => {
-          const moment = require('moment')
-          return moment(timestamp).format('YYYY/MM/DD, hh:mm:ss')
-        },
+    ['thirdparty-search', {
+      thirdparty: [{
+        title: '在Bing中搜索',
+        frontUrl: 'https://cn.bing.com/search?q=',
       },
-    ],
+      {
+        title: '在Baidu中搜索',
+        frontUrl: 'https://www.baidu.com/s?ie=UTF-8&wd=',
+      },
+      {
+        title: '在GitHub中搜索',
+        frontUrl: 'https://github.com/search?q=',
+      }]
+    }],
+    // "上次更新"时间格式
+    ['@vuepress/last-updated', {
+      transformer: (timestamp, lang) => {
+        const moment = require('moment')
+        return moment(timestamp).format('YYYY/MM/DD, hh:mm:ss')
+      },
+    }],
     // 代码块复制
     ['one-click-copy', {
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
@@ -119,10 +115,9 @@ module.exports = {
     }],
     // 评论 https://leancloud.cn
     ['@vuepress/register-components',{
-        componentsDir: './components'
-      }
-    ]
-    // pwa 支持
+      componentsDir: './components'
+    }],
+    // pwa支持
     ['@vuepress/pwa', {
       serviceWorker: true,
       updatePopup: {
@@ -143,6 +138,6 @@ module.exports = {
           buttonText: "새로 고침"
         }
       }
-    }],
+    }]
   ]
 }
