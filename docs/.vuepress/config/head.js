@@ -1,6 +1,6 @@
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-  ['link', { rel: 'icon', href: '/logo.ico' }], //favicons，资源放在public文件夹
+  ['link', { rel: 'icon', href: '/logo.png' }],
   ['link', { rel: 'manifest', href: '/manifest.json' }],
   ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
