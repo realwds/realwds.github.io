@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "dependencies": {
+    "leancloud-storage": "^4.10.0",
+    "valine": "^1.4.14",
     "vuepress": "^1.7.1"
   },
   "devDependencies": {
