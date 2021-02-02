@@ -3,6 +3,7 @@ module.exports = {
   dest: 'public',
   head:  require('./config/head'),
   description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
+  theme: 'yuu',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -19,7 +20,7 @@ module.exports = {
     '/kr/': {
       lang: 'ko-KR',
       title: 'realwds\'s 사이트'
-    }
+    },
   },
   themeConfig: {
     logo: '/img/home.png',
@@ -30,6 +31,11 @@ module.exports = {
     docsDir: 'docs', // 编辑的文件夹
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     smoothScroll: true, //页面滚动
+    yuu: {
+      defaultDarkTheme: true,
+      defaultColorTheme: 'green',
+      colorThemes: ['blue','red','purple'],
+		},
     locales: {
       '/': {
         label: '简体中文',
@@ -63,7 +69,7 @@ module.exports = {
         nav: require('./config/nav-kr'),
         sidebar: require('./config/sidebar-kr')
       }
-    }
+    },  
   },
   configureWebpack: {
     resolve: {
