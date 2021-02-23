@@ -42,5 +42,6 @@ module.exports = {
         "../../study/ssh/sftp"
       ]
     }
-  ]
+  ],
+  "/zh/study/js/": ["../../study/js/"]
 }
