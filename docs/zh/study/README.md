@@ -41,3 +41,31 @@
 
 - [**Airbnb JavaScript 风格指南**](/zh/study/js/README.md)
 
+
+<div class="container">
+  <div>ssh</div> 
+  <div>git</div> 
+  <div>javascript</div> 
+  <div>4</div> 
+  <div>5</div> 
+  <div>6</div> 
+  <div>7</div> 
+  <div>8</div> 
+</div>
+
+<style scoped>
+.container{
+  display:grid;
+  grid-row-gap:10px;
+  grid-column-gap:20px;
+  grid-template-columns:repeat(auto-fit, 200px);
+  grid-template-rows:repeat(3, 120px);
+  text-align:center;
+  line-height:120px;
+}
+.container div{
+  background:#f1f1f1;
+  font-size: 20px;
+  color: #333;
+}
+</style>
