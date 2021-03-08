@@ -7,6 +7,11 @@
 
 <!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
 
+### 我的项目
+
+- [**新浪全球实时新闻**](https://realwds.github.io/sina-news/)
+- [**新浪每日搞笑动图**](https://realwds.github.io/sina-gif/)
+
 ### 我的足迹：
 
 <iframe src="https://realwds.gitee.io/footprint/" style="border:0;width:100%;height:380px;"></iframe>  
