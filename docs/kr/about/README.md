@@ -7,17 +7,13 @@
 
 <!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
 
-### 我的项目
+### 내 프로젝트
 
 - [**Sina 뉴스**](https://realwds.github.io/sina-news/)
 - [**Sina 영화**](https://realwds.github.io/sina-gif/)
 - [**vuepress 테마 블로그**](https://realwds.github.io/vuepress-blog/)
 - [**hexo 테마 블로그**](https://realwds.github.io/hexo-blog/)
 - [**gulp 입자 소개 페이지**](https://realwds.github.io/gulp-person-website/)
-
-### 나의 발자취：
-
-<iframe src="https://realwds.gitee.io/footprint/" style="border:0;width:100%;height:380px;"></iframe>  
 
 ### 연락처：
 

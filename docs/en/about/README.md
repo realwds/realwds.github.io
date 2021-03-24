@@ -17,10 +17,6 @@ The most commonly used buttons ```CTRL+C``` ```CTRL+V```。
 - [**hexo theme blog**](https://realwds.github.io/hexo-blog/)
 - [**gulp person website**](https://realwds.github.io/gulp-person-website/)
 
-### My Footpoint：
-
-<iframe src="https://realwds.gitee.io/footprint/" style="border:0;width:100%;height:380px;"></iframe>  
-
 ### My Contact：
 
 - **WeChat or QQ**: <a :href="qqUrl" class='qq'>1483166698</a>

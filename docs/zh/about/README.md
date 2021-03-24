@@ -15,10 +15,6 @@
 - [**hexo 主题博客**](https://realwds.github.io/hexo-blog/)
 - [**gulp 粒子个人介绍页**](https://realwds.github.io/gulp-person-website/)
 
-### 我的足迹：
-
-<iframe src="https://realwds.gitee.io/footprint/" style="border:0;width:100%;height:380px;"></iframe>  
-
 ### 联系方式：
 
 - **WeChat or QQ**: <a :href="qqUrl" class='qq'>1483166698</a>
