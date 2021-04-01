@@ -1,6 +1,5 @@
 module.exports = {
   "/zh/website/": ["../../zh/website/"],
-  "/zh/article/": ["../../zh/article/"],
   "/zh/study/git/": [
     {
       title: 'Git 目录',   // 必要的
