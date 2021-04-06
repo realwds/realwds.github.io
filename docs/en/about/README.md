@@ -7,9 +7,11 @@ Now living in Hangzhou, Zhejiang Province, front-end typist, <br />
 The most commonly used buttons ```CTRL+C``` ```CTRL+V```。
 :::
 
-<!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
-
 ### My Project
+
+<a href="https://github.com/realwds" target="_blank">
+  <img class="githubCard" src="https://ghchart.rshah.org/realwds" alt="github" />
+</a> 
 
 - [**sina news**](https://realwds.github.io/sina-news/)
 - [**sina gif**](https://realwds.github.io/sina-gif/)
@@ -38,3 +40,12 @@ The most commonly used buttons ```CTRL+C``` ```CTRL+V```。
     }
   }
 </script>
+
+<style>
+.githubCard {
+  padding: 10px;
+  margin-top: 20px;
+  border: 4px dotted #929d99;
+  box-sizing: border-box;
+}
+</style>

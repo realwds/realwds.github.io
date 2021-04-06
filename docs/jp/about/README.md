@@ -5,9 +5,11 @@
 今は浙江省杭州に住んでいます，フロントタイピスト，最も一般的なキー ```CTRL+C``` ```CTRL+V```。
 :::
 
-<!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
-
 ### 私のプロジェクト
+
+<a href="https://github.com/realwds" target="_blank">
+  <img class="githubCard" src="https://ghchart.rshah.org/realwds" alt="github" />
+</a> 
 
 - [**Sina ニュース**](https://realwds.github.io/sina-news/)
 - [**Sina GIF**](https://realwds.github.io/sina-gif/)
@@ -36,3 +38,12 @@
     }
   }
 </script>
+
+<style>
+.githubCard {
+  padding: 10px;
+  margin-top: 20px;
+  border: 4px dotted #929d99;
+  box-sizing: border-box;
+}
+</style>

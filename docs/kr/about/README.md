@@ -5,9 +5,11 @@
 현 재 는 절강 항주 에 살 고 있 으 며 전단 타자 수 들 이 가장 많이 사용 하 는 버튼 이다 ```CTRL+C``` ```CTRL+V```。
 :::
 
-<!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
-
 ### 내 프로젝트
+
+<a href="https://github.com/realwds" target="_blank">
+  <img class="githubCard" src="https://ghchart.rshah.org/realwds" alt="github" />
+</a> 
 
 - [**Sina 뉴스**](https://realwds.github.io/sina-news/)
 - [**Sina 영화**](https://realwds.github.io/sina-gif/)
@@ -36,3 +38,12 @@
     }
   }
 </script>
+
+<style>
+.githubCard {
+  padding: 10px;
+  margin-top: 20px;
+  border: 4px dotted #929d99;
+  box-sizing: border-box;
+}
+</style>

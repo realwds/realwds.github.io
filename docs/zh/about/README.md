@@ -5,9 +5,11 @@
 现居浙江杭州，前端打字员，最常用的按键 ```CTRL+C``` ```CTRL+V```。
 :::
 
-<!-- <img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='本人照片'> -->
-
 ### 我的项目
+
+<a href="https://github.com/realwds" target="_blank">
+  <img class="githubCard" src="https://ghchart.rshah.org/realwds" alt="github" />
+</a> 
 
 - [**新浪全球实时新闻**](https://realwds.github.io/sina-news/)
 - [**新浪每日搞笑动图**](https://realwds.github.io/sina-gif/)
@@ -36,3 +38,12 @@
     }
   }
 </script>
+
+<style>
+.githubCard {
+  padding: 10px;
+  margin-top: 20px;
+  border: 4px dotted #929d99;
+  box-sizing: border-box;
+}
+</style>
