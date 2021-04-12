@@ -26,6 +26,6 @@
 
 我们同时建议你验证使用的 CDN 是否设置了 `Access-Control-Allow-Origin: * HTTP` 请求头：
 
-![Access-Control-Allow-Origin: *](https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210412175141.png)
+<a data-fancybox title="img" href="https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210412175141.png">![Access-Control-Allow-Origin: *](https://cdn.jsdelivr.net/gh/realwds/cdn/img/20210412175141.png)</a>
 
 这样能在 React 16 及以上的版本中有更好的错误处理体验。

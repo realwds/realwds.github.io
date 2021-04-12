@@ -83,5 +83,53 @@ module.exports = {
         "../../study/react/tip3/accessibility",
       ]
     },
+    {
+      title: 'API REFERENCE',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip4/react-api",
+      ]
+    },
+    {
+      title: 'HOOK',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip5/hooks-intro",
+      ]
+    },
+    {
+      title: '测试',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip6/testing",
+      ]
+    },
+    {
+      title: 'CONCURRENT 模式（实验阶段）',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip7/concurrent-mode-intro",
+      ]
+    },
+    {
+      title: '贡献',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip8/how-to-contribute",
+      ]
+    },
+    {
+      title: 'FAQ',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip9/faq-ajax",
+      ]
+    },
   ]
 }
