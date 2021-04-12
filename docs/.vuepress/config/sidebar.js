@@ -5,7 +5,7 @@ module.exports = {
       title: 'Git 目录',   // 必要的
       //path: '/zh/study/git/',  // 可选的, 标题的跳转链接，应为绝对路径且必须存在
       collapsable: false, // 可选的, 默认值是 true,
-      sidebarDepth: 1,    // 可选的, 默认值是 1
+      sidebarDepth: 0,    // 可选的, 默认值是 1
       children: [
         "../../study/git/1-1.常用Git命令清单",
         "../../study/git/1-2.Git变基合并",
@@ -28,7 +28,7 @@ module.exports = {
     {
       title: 'SSH 目录',   // 必要的
       collapsable: false, // 可选的, 默认值是 true,
-      sidebarDepth: 1,    // 可选的, 默认值是 1
+      sidebarDepth: 0,    // 可选的, 默认值是 1
       children: [
         "../../study/ssh/basic",
         "../../study/ssh/client",
@@ -42,5 +42,46 @@ module.exports = {
       ]
     }
   ],
-  "/zh/study/js/": ["../../study/js/"]
+  "/zh/study/js/": ["../../study/js/"],
+  "/zh/study/react/": [
+    {
+      title: '安装',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip1/getting-started",
+        "../../study/react/tip1/add-react-to-a-website",
+        "../../study/react/tip1/create-a-new-react-app",
+        "../../study/react/tip1/cdn-links",
+        "../../study/react/tip1/release-channels"
+      ]
+    },
+    {
+      title: '核心概念',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip2/hello-world",
+        "../../study/react/tip2/introducing-jsx",
+        "../../study/react/tip2/rendering-elements",
+        "../../study/react/tip2/components-and-props",
+        "../../study/react/tip2/state-and-lifecycle",
+        "../../study/react/tip2/handling-events",
+        "../../study/react/tip2/conditional-rendering",
+        "../../study/react/tip2/lists-and-keys",
+        "../../study/react/tip2/forms",
+        "../../study/react/tip2/lifting-state-up",
+        "../../study/react/tip2/composition-vs-inheritance",
+        "../../study/react/tip2/thinking-in-react",
+      ]
+    },
+    {
+      title: '高级指引',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 0,    // 可选的, 默认值是 1
+      children: [
+        "../../study/react/tip3/accessibility",
+      ]
+    },
+  ]
 }
