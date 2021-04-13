@@ -108,7 +108,7 @@ module.exports = {
       ]
     },
     {
-      title: 'CONCURRENT 模式（实验阶段）',   // 必要的
+      title: 'CONCURRENT 模式',   // 必要的
       collapsable: true, // 可选的, 默认值是 true,
       sidebarDepth: 0,    // 可选的, 默认值是 1
       children: [
