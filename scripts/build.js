@@ -3,7 +3,7 @@ const { existsSync, lstatSync, readdirSync } = require('fs')
 
 function readFileList(year, moon) {
   const fileList = []
-  const dirPath = resolve(`./docs/zh/daily/${year}/${moon}/`)
+  const dirPath = resolve(`./docs/daily/${year}/${moon}/`)
   const isDir = existsSync(dirPath) && lstatSync(dirPath).isDirectory()
   if (!isDir) {
     return fileList
@@ -13,7 +13,7 @@ function readFileList(year, moon) {
   files.forEach((item) => {
     const currentFile = item.slice(0, 2)
     fileList.push([
-      `/zh/daily/${year}/${moon}/${currentFile}`,
+      `/daily/${year}/${moon}/${currentFile}`,
       `${year}年${moon}月${currentFile}日`
     ])
   })
