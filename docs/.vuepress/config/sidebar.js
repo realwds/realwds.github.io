@@ -134,7 +134,7 @@ module.exports = {
     },
   ],
   "/zh/daily/": [
-    ["/zh/daily/", "✅每日一剂"],
+    ["/zh/daily/", "✅ 每日一剂"],
     {
       title: '2021年04月',
       collapsable: false,
@@ -147,7 +147,8 @@ module.exports = {
     },
   ],
   "/zh/more/": [
-    ["/zh/more/about", "关于我"],
-    ["/zh/more/website", "常用网站"]
+    ["/zh/more/about", "㊙️ 关于我"],
+    ["/zh/more/sponsor", "💖 赞助我"],
+    ["/zh/more/contact", "💌 联系我"]
   ]
 }
