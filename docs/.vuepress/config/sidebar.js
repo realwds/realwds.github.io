@@ -1,5 +1,6 @@
+const readFileList = require("../../../scripts/build")
+
 module.exports = {
-  "/zh/website/": ["../../zh/website/"],
   "/zh/study/git/": [
     {
       title: 'Git 目录',   // 必要的
@@ -7,129 +8,146 @@ module.exports = {
       collapsable: false, // 可选的, 默认值是 true,
       sidebarDepth: 0,    // 可选的, 默认值是 1
       children: [
-        "../../study/git/1-1.常用Git命令清单",
-        "../../study/git/1-2.Git变基合并",
-        "../../study/git/1-3.Git命令思维导图",
-        "../../study/git/2-1.Git基础与命令",
-        "../../study/git/2-2.Git分支-分支原理",
-        "../../study/git/2-3.Git分支的新建与合并-分支操作",
-        "../../study/git/2-4.Git分支管理-查看分支",
-        "../../study/git/2-5.Git分支开发工作流",
-        "../../study/git/2-6.Git分支-远程分支",
-        "../../study/git/2-7.Git分支-变基",
-        "../../study/git/2-8.Git工具-查看修订版本",
-        "../../study/git/2-9.Git工具-交互式暂存",
-        "../../study/git/2-10.Git工具-重写历史",
-        "../../study/git/2-11.Git工具-重置揭密"	
+        "/zh/study/git/1-1.常用Git命令清单",
+        "/zh/study/git/1-2.Git变基合并",
+        "/zh/study/git/1-3.Git命令思维导图",
+        "/zh/study/git/2-1.Git基础与命令",
+        "/zh/study/git/2-2.Git分支-分支原理",
+        "/zh/study/git/2-3.Git分支的新建与合并-分支操作",
+        "/zh/study/git/2-4.Git分支管理-查看分支",
+        "/zh/study/git/2-5.Git分支开发工作流",
+        "/zh/study/git/2-6.Git分支-远程分支",
+        "/zh/study/git/2-7.Git分支-变基",
+        "/zh/study/git/2-8.Git工具-查看修订版本",
+        "/zh/study/git/2-9.Git工具-交互式暂存",
+        "/zh/study/git/2-10.Git工具-重写历史",
+        "/zh/study/git/2-11.Git工具-重置揭密"	
       ]
     }
   ],
   "/zh/study/ssh/": [
     {
-      title: 'SSH 目录',   // 必要的
-      collapsable: false, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: 'SSH 目录',
+      collapsable: false,
+      sidebarDepth: 0,
       children: [
-        "../../study/ssh/basic",
-        "../../study/ssh/client",
-        "../../study/ssh/key",
-        "../../study/ssh/server",
-        "../../study/ssh/port-forwarding",
-        "../../study/ssh/ca",
-        "../../study/ssh/scp",
-        "../../study/ssh/rsync",
-        "../../study/ssh/sftp"
+        "/zh/study/ssh/basic",
+        "/zh/study/ssh/client",
+        "/zh/study/ssh/key",
+        "/zh/study/ssh/server",
+        "/zh/study/ssh/port-forwarding",
+        "/zh/study/ssh/ca",
+        "/zh/study/ssh/scp",
+        "/zh/study/ssh/rsync",
+        "/zh/study/ssh/sftp"
       ]
     }
   ],
-  "/zh/study/js/": ["../../study/js/"],
+  "/zh/study/js/": ["/zh/study/js/"],
   "/zh/study/react/": [
     {
-      title: '安装',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: '安装',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip1/getting-started",
-        "../../study/react/tip1/add-react-to-a-website",
-        "../../study/react/tip1/create-a-new-react-app",
-        "../../study/react/tip1/cdn-links",
-        "../../study/react/tip1/release-channels"
+        "/zh/study/react/tip1/getting-started",
+        "/zh/study/react/tip1/add-react-to-a-website",
+        "/zh/study/react/tip1/create-a-new-react-app",
+        "/zh/study/react/tip1/cdn-links",
+        "/zh/study/react/tip1/release-channels"
       ]
     },
     {
-      title: '核心概念',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: '核心概念',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip2/hello-world",
-        "../../study/react/tip2/introducing-jsx",
-        "../../study/react/tip2/rendering-elements",
-        "../../study/react/tip2/components-and-props",
-        "../../study/react/tip2/state-and-lifecycle",
-        "../../study/react/tip2/handling-events",
-        "../../study/react/tip2/conditional-rendering",
-        "../../study/react/tip2/lists-and-keys",
-        "../../study/react/tip2/forms",
-        "../../study/react/tip2/lifting-state-up",
-        "../../study/react/tip2/composition-vs-inheritance",
-        "../../study/react/tip2/thinking-in-react",
+        "/zh/study/react/tip2/hello-world",
+        "/zh/study/react/tip2/introducing-jsx",
+        "/zh/study/react/tip2/rendering-elements",
+        "/zh/study/react/tip2/components-and-props",
+        "/zh/study/react/tip2/state-and-lifecycle",
+        "/zh/study/react/tip2/handling-events",
+        "/zh/study/react/tip2/conditional-rendering",
+        "/zh/study/react/tip2/lists-and-keys",
+        "/zh/study/react/tip2/forms",
+        "/zh/study/react/tip2/lifting-state-up",
+        "/zh/study/react/tip2/composition-vs-inheritance",
+        "/zh/study/react/tip2/thinking-in-react",
       ]
     },
     {
-      title: '高级指引',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: '高级指引',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip3/accessibility",
+        "/zh/study/react/tip3/accessibility",
       ]
     },
     {
-      title: 'API REFERENCE',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: 'API REFERENCE',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip4/react-api",
+        "/zh/study/react/tip4/react-api",
       ]
     },
     {
-      title: 'HOOK',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: 'HOOK',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip5/hooks-intro",
+        "/zh/study/react/tip5/hooks-intro",
       ]
     },
     {
-      title: '测试',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: '测试',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip6/testing",
+        "/zh/study/react/tip6/testing",
       ]
     },
     {
-      title: 'CONCURRENT 模式',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: 'CONCURRENT 模式',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip7/concurrent-mode-intro",
+        "/zh/study/react/tip7/concurrent-mode-intro",
       ]
     },
     {
-      title: '贡献',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: '贡献',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip8/how-to-contribute",
+        "/zh/study/react/tip8/how-to-contribute",
       ]
     },
     {
-      title: 'FAQ',   // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      sidebarDepth: 0,    // 可选的, 默认值是 1
+      title: 'FAQ',
+      collapsable: true,
+      sidebarDepth: 0,
       children: [
-        "../../study/react/tip9/faq-ajax",
+        "/zh/study/react/tip9/faq-ajax",
       ]
     },
+  ],
+  "/zh/daily/": [
+    ["/zh/daily/", "✅每日一剂"],
+    {
+      title: '2021年04月',
+      collapsable: false,
+      children: readFileList("2021", "04")
+    },
+    {
+      title: '2021年03月',
+      collapsable: true,
+      children: readFileList("2021", "03")
+    },
+  ],
+  "/zh/more/": [
+    ["/zh/more/about", "关于我"],
+    ["/zh/more/website", "常用网站"]
   ]
 }
