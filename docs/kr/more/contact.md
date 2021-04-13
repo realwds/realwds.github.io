@@ -1,14 +1,14 @@
-# 联系我
+# 연락 주세요
 
-::: tip 联系
-致的五官是心动的开始，迷人的气质是动情的深渊。
+::: tip 연락 하 다
+정교 한 이목 구비 는 심 쿵 의 시작 이 고, 사람 을 매혹 시 키 는 기질 은 감동 의 심연 이다.
 :::
 
-如有问题，可以通过以下方式联系我：
+문제 가 있 으 면 다음 과 같은 방식 으로 저 에 게 연락 하 십시오：
 
 - QQ：<a :href="qqUrl" class='qq'>1483166698</a>
-- 微信：<a>1483166698</a>
-- 邮箱：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
+- 위 챗 편지：<a>1483166698</a>
+- 메 일주 소：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
 - GitHub：<https://github.com/realwds>
 
 <script>

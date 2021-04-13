@@ -1,14 +1,14 @@
-# 联系我
+# 連絡してください
 
-::: tip 联系
-致的五官是心动的开始，迷人的气质是动情的深渊。
+::: tip 連絡する
+精緻な五感は心の動きの始まりで、魅惑的な気質は感動の深淵です。
 :::
 
-如有问题，可以通过以下方式联系我：
+問題があれば、以下の方法で連絡してください：
 
 - QQ：<a :href="qqUrl" class='qq'>1483166698</a>
-- 微信：<a>1483166698</a>
-- 邮箱：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
+- WeChat：<a>1483166698</a>
+- メールボックス：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
 - GitHub：<https://github.com/realwds>
 
 <script>

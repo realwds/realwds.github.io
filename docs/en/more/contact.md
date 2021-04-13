@@ -1,14 +1,15 @@
-# 联系我
+# Contact Me
 
-::: tip 联系
-致的五官是心动的开始，迷人的气质是动情的深渊。
+::: tip Contact
+Delicate facial features are the beginning of the heart, <br />
+charming temperament is the abyss of emotion.
 :::
 
-如有问题，可以通过以下方式联系我：
+If you have any questions, please contact me in the following ways:
 
 - QQ：<a :href="qqUrl" class='qq'>1483166698</a>
-- 微信：<a>1483166698</a>
-- 邮箱：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
+- WeChat：<a>1483166698</a>
+- Email：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
 - GitHub：<https://github.com/realwds>
 
 <script>
