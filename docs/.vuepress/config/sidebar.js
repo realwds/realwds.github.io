@@ -17,6 +17,7 @@ module.exports = {
   "/more/": [
     ["/more/about", "《 关于我 》"],
     ["/more/sponsor", "《 赞助我 》"],
-    ["/more/contact", "《 联系我 》"]
+    ["/more/contact", "《 联系我 》"],
+    ["/more/comment", "《 留个言 》"]
   ]
 }
