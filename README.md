@@ -1,70 +1,21 @@
-<h1 align="center">Alejandro's Website</h1>
+# realwds's website
 
-<p align="center">
-<a href="https://a.disnot.com"><img src="https://img.shields.io/badge/realwds-w-yellow.svg" alt="w"></a> <a href="https://a.disnot.com"><img src="https://img.shields.io/badge/realwds-d-blue.svg" alt="d"></a> <a href="https://a.disnot.com"><img src="https://img.shields.io/badge/realwds-s-purple.svg" alt="s"></a> <a href="https://circleci.com/gh/realwds/realwds.github.io/tree/master"><img src="https://img.shields.io/circleci/project/github/realwds/realwds.github.io/master.svg?sanitize=true" alt="Build Status"></a> <a href="https://github.com/realwds/realwds.github.io/actions"><img src="https://github.com/realwds/realwds.github.io/workflows/TEST CI/badge.svg?sanitize=true" alt="TEST CI Status"></a> <a href="https://github.com/realwds/realwds.github.io/actions"><img src="https://github.com/realwds/realwds.github.io/workflows/DEPLOY CI/badge.svg?sanitize=true" alt="DEPLOY CI Status"></a> <a href="https://github.com/realwds/realwds.github.io/actions"><img src="https://github.com/realwds/realwds.github.io/workflows/MIRROR CI/badge.svg?sanitize=true" alt="MIRROR CI Status"></a>
-</p>
+> 2014 Anhui University of science and technology graduate, <br />
+> major in information and computing science, is a kicker of mathematics department.<br />
+> Now living in Hangzhou, Zhejiang Province, front-end typist, <br />
+> The most commonly used buttons ```CTRL+C``` ```CTRL+V```。
 
-<img src='https://cdn.jsdelivr.net/gh/realwds/realwds/display.jpg' alt='哈哈哈哈'>
+### My Project
 
-## GitHub Action 自动部署到 GitHub Page
-
-``` yaml
-name: DEPLOY CI
-on:
-  push:
-    branches:
-      - master
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
-
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
-```
+<a href="https://github.com/realwds" target="_blank">
+  <img  style="padding:10px;margin-top:20px;border:4px dotted #929d99;box-sizing:border-box;" src="https://ghchart.rshah.org/realwds" alt="github" />
+</a> 
 
 
-## GitHub Action 自动部署到 Gitee & GitLab
-
-``` yaml
-name: MIRROR CI
-on:
-  push:
-    branches:
-      - master
-jobs:
-  mirror_to_gitee:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout'
-        uses: actions/checkout@v1
-      - name: 'Mirror to gitee'
-        uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            git@gitee.com:tsund/test.git
-          ssh_private_key:
-            ${{ secrets.GITEE_KEY }}
-
-  mirror_to_gitlab:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout'
-        uses: actions/checkout@v1
-      - name: 'Mirror to gitlab'
-        uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            git@gitlab.com:tsund/test.git
-          ssh_private_key:
-            ${{ secrets.GITLAB_KEY }}
-```
+- [**sina news**](https://realwds.github.io/sina-news/)
+- [**sina gif**](https://realwds.github.io/sina-gif/)
+- [**vuepress theme blog**](https://realwds.github.io/vuepress-blog/)
+- [**hexo theme blog**](https://realwds.github.io/hexo-blog/)
+- [**gulp person website**](https://realwds.github.io/gulp-person-website/)
 
 Copyright (c) 2020-present, realwds
