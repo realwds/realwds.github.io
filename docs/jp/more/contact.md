@@ -10,6 +10,7 @@
 - WeChat：<a>1483166698</a>
 - メールボックス：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
 - GitHub：<https://github.com/realwds>
+- Telegram：<a href="https://t.me/realwds" target="_blank">https://t.me/realwds</a>
 
 <script>
   export default {
