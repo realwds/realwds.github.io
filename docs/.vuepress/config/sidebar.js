@@ -11,7 +11,7 @@ module.exports = {
     },
     {
       title: '2021年03月',
-      collapsable: true,
+      collapsable: false,
       sidebarDepth: 0,
       children: readFileList("2021", "03")
     },
