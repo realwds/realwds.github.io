@@ -16,6 +16,7 @@ module.exports = {
       children: readFileList("2021", "03")
     },
   ],
+  "/post/": ["/post/"],
   "/more/": [
     ["/more/about", "《 关于我 》"],
     ["/more/sponsor", "《 赞助我 》"],
