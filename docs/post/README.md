@@ -6,7 +6,7 @@
 
 ## 2021年04月19日
 
-- 前天虚拟机装 MacOS 系统，没有全屏，找了半天，最好发现靠谱的解决方案。[VMwareMacOS无法全屏](https://blog.csdn.net/qq_36292543/article/details/91515065)、[darwin.iso](https://crifan.github.io/popular_virtual_machine_vmware/website/usage_summary/vmware_tools/macos/darwin_iso.html)
+- 前天虚拟机装 MacOS 系统，没有全屏，找了半天，最后发现靠谱的解决方案。[VMwareMacOS无法全屏](https://blog.csdn.net/qq_36292543/article/details/91515065)、[darwin.iso](https://crifan.github.io/popular_virtual_machine_vmware/website/usage_summary/vmware_tools/macos/darwin_iso.html)
 - 微信获取用户信息方法改了，之前的 ```wx.getUserInfo(Object object)``` 相当于拆分成 ```wx.getUserInfo(Object object)``` 和 ``` wx.getUserProfile(Object object)```，微信没事，净给我们找 trouble 😡。
 
 
