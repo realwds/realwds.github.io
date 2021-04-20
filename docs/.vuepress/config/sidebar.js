@@ -1,4 +1,4 @@
-const readFileList = require("../../../scripts/build")
+const readFileList = require("../../../scripts/readFileList")
 
 module.exports = {
   "/daily/": [
