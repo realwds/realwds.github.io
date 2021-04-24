@@ -1,7 +1,7 @@
 # 联系我
 
 ::: tip 联系
-致的五官是心动的开始，迷人的气质是动情的深渊。
+精致的五官是心动的开始，迷人的气质是动情的深渊。
 :::
 
 如有问题，可以通过以下方式联系我：
@@ -11,6 +11,8 @@
 - 邮箱：<a href="mailto:disnot@qq.com">disnot@qq.com</a>
 - GitHub：<https://github.com/realwds>
 - Telegram：<a href="https://t.me/realwds" target="_blank">https://t.me/realwds</a>
+
+<img src="/img/about-contact.jpg" width="200"/> 
 
 <script>
   export default {

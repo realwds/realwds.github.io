@@ -17,6 +17,8 @@
 - [**hexo 主题博客**](https://realwds.github.io/hexo-blog/)
 - [**gulp 粒子个人介绍页**](https://realwds.github.io/gulp-person-website/)
 
+<img src="/img/about-me.jpg" width="200"/> 
+
 <style>
 .githubCard {
   padding: 10px;

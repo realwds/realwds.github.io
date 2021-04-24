@@ -8,7 +8,7 @@ sidebarDepth: 0
 每日一剂，请按时服用。
 :::
 
-<a data-fancybox title="每日一剂" href="https://cdn.jsdelivr.net/gh/realwds/cdn/img/20201216165804.jpg">![](https://cdn.jsdelivr.net/gh/realwds/cdn/img/20201216165804.jpg)</a>
+<a data-fancybox title="程序员的状态" href="/img/coder.jpg">![](/img/coder.jpg)</a>
 
 ## 常用网站
 
