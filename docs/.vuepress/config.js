@@ -2,7 +2,7 @@ module.exports = {
   base: '/',
   dest: 'public',
   head:  require('./config/head'),
-  description: 'How are you? i\'am fine, thanks. and you? Hello,3Q',
+  description: '精致的五官是心动的开始，迷人的气质是动情的深渊。',
   theme: 'yuu',
   locales: {
     '/': {
