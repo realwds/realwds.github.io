@@ -54,7 +54,7 @@
 
 <style>
 .archives-link {
-  color: #34495e;
+  color: #3eaf7c;
 }
 .archives-link:hover {
   text-decoration: none !important;
