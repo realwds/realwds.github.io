@@ -5,6 +5,11 @@
 :::
 
 ## 2021年04月
+- <a class="archives-link" href="/daily/2021/04/28" target="_blank">TED 如何成为一个更好的交谈者</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28" target="_blank">TED 在闲暇时间里如何关掉与工作相关的想法</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28" target="_blank">TED 如何掌控你自己的自由时间</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28" target="_blank">TED 肢体语言塑造你自己</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28" target="_blank">TED 睡眠是你的超能力</a><span class="date-style">2021/04/28</span>
 - <a class="archives-link" href="/daily/2021/04/27" target="_blank">Vuex</a><span class="date-style">2021/04/27</span>
 - <a class="archives-link" href="/daily/2021/04/26" target="_blank">JavaScript Promise 对象</a><span class="date-style">2021/04/26</span>
 - <a class="archives-link" href="/daily/2021/04/25" target="_blank">nvm 学习与使用</a><span class="date-style">2021/04/25</span>
