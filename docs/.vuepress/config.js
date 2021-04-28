@@ -3,7 +3,7 @@ module.exports = {
   dest: 'public',
   head:  require('./config/head'),
   description: '精致的五官是心动的开始，迷人的气质是动情的深渊。',
-  theme: 'yuu',
+  theme: 'vuepress-theme-realwds',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -31,11 +31,6 @@ module.exports = {
     docsDir: 'docs', // 编辑的文件夹
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     smoothScroll: true, //页面滚动
-    yuu: {
-      defaultDarkTheme: true,
-      defaultColorTheme: 'green',
-      colorThemes: ['blue','red','purple'],
-		},
     locales: {
       '/': {
         label: '简体中文',
@@ -87,9 +82,9 @@ module.exports = {
   },
   plugins: [
     // nprogress顶部进度条
-    '@vuepress/nprogress',
+    ['@vuepress/nprogress'],
     // 回到顶部
-    '@vuepress/back-to-top',
+    ['@vuepress/back-to-top'],
     // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
     ['thirdparty-search', {
       thirdparty: [{

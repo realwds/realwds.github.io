@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /img/home-logo.gif
+heroImage: /img/home.png
 heroText: 个人站点
 tagline: 此刻我独领风骚
 actionText: 开始了解 →
-actionLink: /archives/
+actionLink: /daily/
 # features:
 # - title: 学习
 #   details: 学习使我快乐
