@@ -8,42 +8,71 @@ sidebarDepth: 0
 每日一剂，请按时服用。
 :::
 
-<a data-fancybox title="程序员的状态" href="/img/coder.jpg">![](/img/coder.jpg)</a>
+## 2021年04月
+- <a class="archives-link" href="/daily/2021/04/28.html">TED 如何成为一个更好的交谈者</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28.html">TED 在闲暇时间里如何关掉与工作相关的想法</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28.html">TED 如何掌控你自己的自由时间</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28.html">TED 肢体语言塑造你自己</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/28.html">TED 睡眠是你的超能力</a><span class="date-style">2021/04/28</span>
+- <a class="archives-link" href="/daily/2021/04/27.html">Vuex</a><span class="date-style">2021/04/27</span>
+- <a class="archives-link" href="/daily/2021/04/26.html">JavaScript Promise 对象</a><span class="date-style">2021/04/26</span>
+- <a class="archives-link" href="/daily/2021/04/25.html">nvm 学习与使用</a><span class="date-style">2021/04/25</span>
+- <a class="archives-link" href="/daily/2021/04/24.html">ThinkJS 学习</a><span class="date-style">2021/04/24</span>
+- <a class="archives-link" href="/daily/2021/04/23.html">前端工程化</a><span class="date-style">2021/04/23</span>
+- <a class="archives-link" href="/daily/2021/04/22.html">FiraCode字体（好看的字体）</a><span class="date-style">2021/04/22</span>
+- <a class="archives-link" href="/daily/2021/04/21.html">Vue3 生命周期</a><span class="date-style">2021/04/21</span>
+- <a class="archives-link" href="/daily/2021/04/20.html">GitHub Action 持续集成</a><span class="date-style">2021/04/20</span>
+- <a class="archives-link" href="/daily/2021/04/19.html">React.js npm</a><span class="date-style">2021/04/19</span>
+- <a class="archives-link" href="/daily/2021/04/19.html">查看切换 Node.js 版本</a><span class="date-style">2021/04/19</span>
+- <a class="archives-link" href="/daily/2021/04/17.html">国内网站在国外加速访问（CloudFlare）</a><span class="date-style">2021/04/18</span>
+- <a class="archives-link" href="/daily/2021/04/17.html">youtube 视频下载神器（youtube-dl）</a><span class="date-style">2021/04/17</span>
+- <a class="archives-link" href="/daily/2021/04/16.html">React 生命周期</a><span class="date-style">2021/04/16</span>
+- <a class="archives-link" href="/daily/2021/04/15.html">React.js 学习</a><span class="date-style">2021/04/15</span>
+- <a class="archives-link" href="/daily/2021/04/14.html">Electron 学习</a><span class="date-style">2021/04/14</span>
+- <a class="archives-link" href="/daily/2021/04/13.html">Fabric.js 学习</a><span class="date-style">2021/04/13</span>
+- <a class="archives-link" href="/daily/2021/04/12.html">在线打字练习网站</a><span class="date-style">2021/04/12</span>
 
-## 常用网站
+## 2021年03月
+- <a class="archives-link" href="/daily/2021/03/30.html">腾讯兔小槽 打造个人博客</a><span class="date-style">2021/03/30</span>
+- <a class="archives-link" href="/daily/2021/03/29.html">腾讯问卷 轻松获取调查表单数据</a><span class="date-style">2021/03/29</span>
+- <a class="archives-link" href="/daily/2021/03/28.html">PicGo 软件工具实现图片上传</a><span class="date-style">2021/03/28</span>
+- <a class="archives-link" href="/daily/2021/03/27.html">Write.as 仅需一个邮箱注册轻松打造个人网站</a><span class="date-style">2021/03/27</span>
+- <a class="archives-link" href="/daily/2021/03/26.html">UptimeRobot 服务监控，支持自定义域名</a><span class="date-style">2021/03/26</span>
+- <a class="archives-link" href="/daily/2021/03/25.html">Gridea 静态博客编写客户端</a><span class="date-style">2021/03/25</span>
+- <a class="archives-link" href="/daily/2021/03/24.html">Vercel 部署加速 GitHub Page</a><span class="date-style">2021/03/24</span>
+- <a class="archives-link" href="/daily/2021/03/23.html">科学上网支持各种平台 wap and pc</a><span class="date-style">2021/03/23</span>
+- <a class="archives-link" href="/daily/2021/03/22.html">VuePress 本站主题 可做文档和博客</a><span class="date-style">2021/03/22</span>
+- <a class="archives-link" href="/daily/2021/03/21.html">阿里图片 oss 裁剪的三种方式</a><span class="date-style">2021/03/21</span>
+- <a class="archives-link" href="/daily/2021/03/20.html">GitHub 国内加速访问（改变 hosts 方式）</a><span class="date-style">2021/03/20</span>
 
-- [**鱼塘热榜**](https://www.printf520.com/hot.html) 划水网站 收集了很多网站 当天热门文章
-- [**InfoQ**](https://www.infoq.cn/topic/Front-end) 文章的质量比一般网站的高不少
-- [**每日时报**](https://wubaiqing.github.io/zaobao/) 定期会分享一些库和工具
-- [**国务院新闻**](http://www.gov.cn/xinwen/index.htm) 最新政府新闻政策
-- [**阮一峰的网络日志**](http://www.ruanyifeng.com/blog/) 阮老师出的东西还是值得一读的
+## 2021年02月
+- <a class="archives-link" href="/daily/2021/02/14.html">js 点击屏幕出现文字</a><span class="date-style">2021/02/14</span>
+- <a class="archives-link" href="/daily/2021/02/13.html">前端文字溢出问题</a><span class="date-style">2021/02/13</span>
+- <a class="archives-link" href="/daily/2021/02/12.html">前端全局公用脱敏处理方法</a><span class="date-style">2021/02/12</span>
+- <a class="archives-link" href="/daily/2021/02/11.html">canvas 绘制表格数据（带颜色区分）</a><span class="date-style">2021/02/11</span>
+- <a class="archives-link" href="/daily/2021/02/10.html">hubilder 打包 app（链接打包）</a><span class="date-style">2021/02/10</span>
+- <a class="archives-link" href="/daily/2021/02/09.html">前端根据服务器访问速度自动分配最优线路</a><span class="date-style">2021/02/09</span>
+- <a class="archives-link" href="/daily/2021/02/08.html">js 对字符串 hash 加密</a><span class="date-style">2021/02/08</span>
+- <a class="archives-link" href="/daily/2021/02/07.html">table 表格固定 thead，tbody 可滑动</a><span class="date-style">2021/02/07</span>
+- <a class="archives-link" href="/daily/2021/02/06.html">jquery 点击回到顶部</a><span class="date-style">2021/02/06</span>
+- <a class="archives-link" href="/daily/2021/02/05.html">简体繁体转换</a><span class="date-style">2021/02/05</span>
+- <a class="archives-link" href="/daily/2021/02/04.html">检测 ip 和地区</a><span class="date-style">2021/02/04</span>
+- <a class="archives-link" href="/daily/2021/02/03.html">点击复制到剪切板</a><span class="date-style">2021/02/03</span>
+- <a class="archives-link" href="/daily/2021/02/02.html">前端多语言切换</a><span class="date-style">2021/02/02</span>
+- <a class="archives-link" href="/daily/2021/02/01.html">angular1.x todolist 实现</a><span class="date-style">2021/02/01</span>
 
-***
+<style>
+.archives-link {
+  color: #3eaf7c;
+}
+.archives-link:hover {
+  text-decoration: none !important;
+  opacity: .8;
+}
+.date-style {
+  color:#888;
+  float:right;
+  font-size: 14px;
+}
+</style> 
 
-- [**codepen**](https://codepen.io/your-work/) 在线代码演示网站
-- [**emoji-search**](https://emoji.muan.co/#) 帮你快速找到能表达你情感的 emoji
-- [**clipboard2markdown**](https://euangoddard.github.io/clipboard2markdown/) 将你所有复制进去的内容都转化为 markdown
-- [**carbon**](https://carbon.now.sh/) 根据代码块生成图片 主要作用是让你打代码片段分享的时候更好看一点
-- [**excalidraw**](https://excalidraw.com/) 手绘风格流程图
-- [**github 短域名服务**](https://git.io) Github 短域名服务
-- [**shields**](https://shields.io/) Github README 里面的装逼小图标
-- [**githubchart-api**](https://github.com/2016rshah/githubchart-api) Github 提交图
-- [**github-readme-stats**](https://github.com/anuraghazra/github-readme-stats) Github 仓库，提交图
-
-***
-- [**U 钙网**](http://www.uugai.com/) 免费logo在线制作 字体logo-logo设计
-- [**logo-maker**](https://www.designevo.com/logo-maker/) 又一个 logo 制作网站 这个更简单点 就是选模板之后微调
-- [**undraw**](https://undraw.co/illustrations) 一个免费的插图网站，可以在上面寻找合适的插图，用于商业用途。
-- [**产品/设计师/独立开发者的资源库**](https://maliquankai.com/designnav/) 很全很强大
-- [**Lorem Picsum**](https://picsum.photos/) 提供免费的占位图
-
-***
-
-- [**中国传统颜色手册**](https://colors.ichuantong.cn/) 中国传统颜色手册
-- [**pichance**](https://pichance.com/) 一个将低分辨率图片增强为高分辨率的工具，可以将分辨率增加 4 倍（即长和宽各增加一倍）
-- [**bigjpg**](http://bigjpg.com/) 放大图片的神器 通过神经网络可以放大图片并能降噪
-- [**来画视频**](https://www.laihua.com/) 像做 PPT 一样做短视频
-- [**历史价格查询**](http://www.lsjgcx.com/) 淘宝，京东等商品历史价格，能更清晰了解商家的活动是否为虚假促销以及促销的力度。神器
-- [**龙轩导航**](http://ilxdh.com/) 一个总结了不少实用网站的导航
-- [**优品 PPT**](http://www.ypppt.com/) PPT 免费下载
-- [**站长素材**](https://sc.chinaz.com/moban/) 模板、网页模板、网站模板_站长素材
