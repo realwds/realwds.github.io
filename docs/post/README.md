@@ -6,8 +6,8 @@
 
 ## 2021年04月28日
 
-- 下午说五一放三天
-- 下午研究了如何发布 npm 包，先去官网注册 => 验证邮箱 => ```npm login``` => ```npm publish``` 
+- 新搞一个 vuepress 的主题，改官方的默认主题 [Github 地址](https://github.com/realwds/vuepress-theme-realwds)
+- 下午研究了如何发布 npm 包，先去[官网注册](https://www.npmjs.com) => 验证邮箱 => ```npm login``` => ```npm publish``` 
 
 ## 2021年04月22日
 
