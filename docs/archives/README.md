@@ -19,14 +19,14 @@
 - <a class="archives-link" href="/daily/2021/04/21" target="_blank">Vue3 生命周期</a><span class="date-style">2021/04/21</span>
 - <a class="archives-link" href="/daily/2021/04/20" target="_blank">GitHub Action 持续集成</a><span class="date-style">2021/04/20</span>
 - <a class="archives-link" href="/daily/2021/04/19" target="_blank">React.js npm</a><span class="date-style">2021/04/19</span>
-- <a class="archives-link" href="/daily/2021/04/18" target="_blank">查看切换 Node.js 版本</a><span class="date-style">2021/04/19</span>
+- <a class="archives-link" href="/daily/2021/04/19" target="_blank">查看切换 Node.js 版本</a><span class="date-style">2021/04/19</span>
 - <a class="archives-link" href="/daily/2021/04/17" target="_blank">国内网站在国外加速访问（CloudFlare）</a><span class="date-style">2021/04/18</span>
-- <a class="archives-link" href="/daily/2021/04/16" target="_blank">youtube 视频下载神器（youtube-dl）</a><span class="date-style">2021/04/17</span>
-- <a class="archives-link" href="/daily/2021/04/15" target="_blank">React 生命周期</a><span class="date-style">2021/04/16</span>
-- <a class="archives-link" href="/daily/2021/04/14" target="_blank">React.js 学习</a><span class="date-style">2021/04/15</span>
-- <a class="archives-link" href="/daily/2021/04/13" target="_blank">Electron 学习</a><span class="date-style">2021/04/14</span>
-- <a class="archives-link" href="/daily/2021/04/12" target="_blank">Fabric.js 学习</a><span class="date-style">2021/04/13</span>
-- <a class="archives-link" href="/daily/2021/04/11" target="_blank">在线打字练习网站</a><span class="date-style">2021/04/12</span>
+- <a class="archives-link" href="/daily/2021/04/17" target="_blank">youtube 视频下载神器（youtube-dl）</a><span class="date-style">2021/04/17</span>
+- <a class="archives-link" href="/daily/2021/04/16" target="_blank">React 生命周期</a><span class="date-style">2021/04/16</span>
+- <a class="archives-link" href="/daily/2021/04/15" target="_blank">React.js 学习</a><span class="date-style">2021/04/15</span>
+- <a class="archives-link" href="/daily/2021/04/14" target="_blank">Electron 学习</a><span class="date-style">2021/04/14</span>
+- <a class="archives-link" href="/daily/2021/04/13" target="_blank">Fabric.js 学习</a><span class="date-style">2021/04/13</span>
+- <a class="archives-link" href="/daily/2021/04/12" target="_blank">在线打字练习网站</a><span class="date-style">2021/04/12</span>
 
 ## 2021年03月
 - <a class="archives-link" href="/daily/2021/03/30" target="_blank">腾讯兔小槽 打造个人博客</a><span class="date-style">2021/03/30</span>
