@@ -27,23 +27,23 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c9d2984ff22ec1640f188972a27854a8"
+    "revision": "07ed9e488467ad8cc39dc1270ea759a4"
   },
   {
     "url": "about/comment/index.html",
-    "revision": "ed161bb85dd5d2026e76f09b9edcd257"
+    "revision": "5b7edb752fd58bea0dba5b4c7ed6ea70"
   },
   {
     "url": "about/contact/index.html",
-    "revision": "b9e691964136bbb8e37a47812eaf2294"
+    "revision": "f49481cb8dd8a8d234851bfcc696a3bd"
   },
   {
     "url": "about/index.html",
-    "revision": "96090304211bf9a5249297553958c7b1"
+    "revision": "7e4fea4c7f4fd67a3712f44e059659bb"
   },
   {
     "url": "about/sponsor/index.html",
-    "revision": "5e4e9d034f96491a59df356c5e72c4a4"
+    "revision": "dcefa63ffa64a49970109413eb8ff631"
   },
   {
     "url": "assets/css/0.styles.a5bfbda5.css",
@@ -146,12 +146,12 @@ self.__precacheManifest = [
     "revision": "e8ac2208b5dd8beec0d212b735db919a"
   },
   {
-    "url": "assets/js/31.de129657.js",
-    "revision": "26e59b34031637126d3d7e24bb80ad70"
+    "url": "assets/js/31.418f947f.js",
+    "revision": "cc54a37b84cd95624ee5a3ba67ce5d21"
   },
   {
-    "url": "assets/js/32.f29422a5.js",
-    "revision": "d550523b8831b6c71bde8ec146d95215"
+    "url": "assets/js/32.57e2ee03.js",
+    "revision": "f7726a63cae287adaab658c0beff6bee"
   },
   {
     "url": "assets/js/33.cc3ad687.js",
@@ -370,8 +370,8 @@ self.__precacheManifest = [
     "revision": "ca2719803a948c5ca049474bd051d06f"
   },
   {
-    "url": "assets/js/app.3bb62b07.js",
-    "revision": "075b3d064eb5510f8ed1140c96dc29b3"
+    "url": "assets/js/app.26529f88.js",
+    "revision": "340cd608a409cac94fb7b4690e49e397"
   },
   {
     "url": "css/jquery.fancybox.min.css",
@@ -379,199 +379,199 @@ self.__precacheManifest = [
   },
   {
     "url": "daily/2021/02/01/index.html",
-    "revision": "a4aaac37f2d0ccfd46494ffbfe5e6468"
+    "revision": "4b30e6dde04a60bc88c8b531aebb6ef1"
   },
   {
     "url": "daily/2021/02/02/index.html",
-    "revision": "4dd1402262773fabcff02d3917f9feaf"
+    "revision": "83086125bc80a5c8fa21947e948b465f"
   },
   {
     "url": "daily/2021/02/03/index.html",
-    "revision": "03d0b465849c3bf7fc50284777505a42"
+    "revision": "75e7a52e0514252d7c3be7ecbdcf7ba5"
   },
   {
     "url": "daily/2021/02/04/index.html",
-    "revision": "118b6ef603241e60c2ec3e3db088b029"
+    "revision": "9e82f89f50a6c3da27fdf1b9a7cb887a"
   },
   {
     "url": "daily/2021/02/05/index.html",
-    "revision": "7d04ebf5d0c3d68309faad6c90015543"
+    "revision": "b61ade3e0c3fd6b98fcf47bdc61ee18a"
   },
   {
     "url": "daily/2021/02/06/index.html",
-    "revision": "e5f0dad55b07c0342062bda7f47f944c"
+    "revision": "5fb6ffc6f5f36f6c0b14c2d8b2587bdc"
   },
   {
     "url": "daily/2021/02/07/index.html",
-    "revision": "38f8e1af59c31c4861de9cf0a6d03499"
+    "revision": "97f00c5783f43f9ace459d251ed49ab5"
   },
   {
     "url": "daily/2021/02/08/index.html",
-    "revision": "9d29c7f74e5de81e52b96d95a047ad0f"
+    "revision": "3ec0ac4fe3647db5bd200bcc90481512"
   },
   {
     "url": "daily/2021/02/09/index.html",
-    "revision": "db5ea409e9116bca9ba5e62bc6d7f340"
+    "revision": "e72a2fd2006f510dc5aa1cd5c6d19164"
   },
   {
     "url": "daily/2021/02/10/index.html",
-    "revision": "bb0ac3b71fdc60fe70c216166910596c"
+    "revision": "8cfd3fe860da6e08d4e2f7622d58553a"
   },
   {
     "url": "daily/2021/02/11/index.html",
-    "revision": "132db36a0f10ec70a94d87d90567aa58"
+    "revision": "d7138df007a40cedc01693394483f1c4"
   },
   {
     "url": "daily/2021/02/12/index.html",
-    "revision": "f6485047a56cef09e0d06aee1b4b19b8"
+    "revision": "eabc594293e60dc27b0bdb97a2565729"
   },
   {
     "url": "daily/2021/02/13/index.html",
-    "revision": "b8ae406b5025d60d9b31ee30052c6f18"
+    "revision": "7f59c6020a3dcd04b906a3807fa1e6d7"
   },
   {
     "url": "daily/2021/02/14/index.html",
-    "revision": "6cf7b207f4dbc0efaf9d224f35de8a3d"
+    "revision": "dcadc2b07ec3f127a6fa0535f4cca820"
   },
   {
     "url": "daily/2021/03/20/index.html",
-    "revision": "6793561d85b1565f04cb8ddc12619a06"
+    "revision": "8711ff9d641d62508024b992ce064af8"
   },
   {
     "url": "daily/2021/03/21/index.html",
-    "revision": "0c7dad15bbabd8265e0426ca990ec58f"
+    "revision": "821c953619200e932cfd5643e26ed394"
   },
   {
     "url": "daily/2021/03/22/index.html",
-    "revision": "3ad93c2905d297796845eba640b0b76d"
+    "revision": "8885a87fb4da1978b815719b8ccffeaa"
   },
   {
     "url": "daily/2021/03/23/index.html",
-    "revision": "650ff1c261013f11ced26042573adf32"
+    "revision": "0500d8ac62e59f6c865227dea78f30b2"
   },
   {
     "url": "daily/2021/03/24/index.html",
-    "revision": "80e5e7c8e518fa95d3c92a2185688117"
+    "revision": "97c32571b8f6507396af3a6da6ae4d1f"
   },
   {
     "url": "daily/2021/03/25/index.html",
-    "revision": "9aae46bf498db454a70bdc6cf18f4e99"
+    "revision": "51c1babaaebac92212e5f980798aa200"
   },
   {
     "url": "daily/2021/03/26/index.html",
-    "revision": "d6d7bbd63f574e07a94657545c9d3502"
+    "revision": "205caa9a5de2a18d1d48ea81b5992701"
   },
   {
     "url": "daily/2021/03/27/index.html",
-    "revision": "6d7fba24fec1fed96303e82cd8853bfe"
+    "revision": "0f408ee4eeaa258bcd87f8e0f3263dbc"
   },
   {
     "url": "daily/2021/03/28/index.html",
-    "revision": "929fb3f9c8b80008449866b3df388523"
+    "revision": "fecee924ef71a95c437fa206f20b3989"
   },
   {
     "url": "daily/2021/03/29/index.html",
-    "revision": "b6ad32528fb8b790e86b6531a2feee19"
+    "revision": "87f087b682ad1aee8d67510445535d2e"
   },
   {
     "url": "daily/2021/03/30/index.html",
-    "revision": "693760237c62c4f34a8ec0bf1b729ef5"
+    "revision": "1c611f1f21cb90c0d65f0dc6fd28c47a"
   },
   {
     "url": "daily/2021/04/12/index.html",
-    "revision": "e5cb041d40d25d67d3b0afb6d8f27804"
+    "revision": "2e6e58269b1f83b5f3189bed51fc470a"
   },
   {
     "url": "daily/2021/04/13/index.html",
-    "revision": "d055f80c05fe276838c0a4091205d66f"
+    "revision": "fafe390a22aea57799cc299fd7080ae8"
   },
   {
     "url": "daily/2021/04/14/index.html",
-    "revision": "d2a7ab0312a83818d3e74b9b958981b0"
+    "revision": "a69a293625ee318f48baea86cf69a50b"
   },
   {
     "url": "daily/2021/04/15/index.html",
-    "revision": "03471433d14da4d2e7c1012e7aff6838"
+    "revision": "af172eb5b94fca18d67e2893a18f132d"
   },
   {
     "url": "daily/2021/04/16/index.html",
-    "revision": "f13db4c52c9ee21e39c49ee3fd606b4e"
+    "revision": "93d076578fc7c97486be2f82a82aaba1"
   },
   {
     "url": "daily/2021/04/17/index.html",
-    "revision": "aa502b9888127ee489a378589e7a371f"
+    "revision": "68fe12f626469c22127e0610bae6c969"
   },
   {
     "url": "daily/2021/04/18/index.html",
-    "revision": "0b99787db49851b9188dcb345c0601ee"
+    "revision": "4431ddddc4654c0f8186f52432f45054"
   },
   {
     "url": "daily/2021/04/19/index.html",
-    "revision": "d0614da31f4e3f7bb8b229c00d5a593f"
+    "revision": "737f1c5924a01a8cf592c76a072ca02e"
   },
   {
     "url": "daily/2021/04/20/index.html",
-    "revision": "e5f3dbe397399420f507e053f5765178"
+    "revision": "859adabded9021118a69313c9aea076d"
   },
   {
     "url": "daily/2021/04/21/index.html",
-    "revision": "f5ccb7dce06bc408722268472dd31798"
+    "revision": "73b8739193caa2fc066531bb0aa584ad"
   },
   {
     "url": "daily/2021/04/22/index.html",
-    "revision": "a392eaa808b12abe540dc09f7e4c9c64"
+    "revision": "5f66e248b024b9be7d2053727b19087a"
   },
   {
     "url": "daily/2021/04/23/index.html",
-    "revision": "ab7b0981931400a7d239160de138f20a"
+    "revision": "9caaceb9bda431f0d366665c84e1e31a"
   },
   {
     "url": "daily/2021/04/24/index.html",
-    "revision": "3477efff32bcf9b17fb9f765ca2e3c20"
+    "revision": "b20f4e1a660c1b1fcc2c187508378202"
   },
   {
     "url": "daily/2021/04/25/index.html",
-    "revision": "26124a47b68ce685702c44b88541e4ad"
+    "revision": "e852a59bb3ce14a26eb81e67f20e6df0"
   },
   {
     "url": "daily/2021/04/26/index.html",
-    "revision": "c8ea91d9f4d0c62bcd50912045359d82"
+    "revision": "74ba4a48b6f47c918899f70f33b30a17"
   },
   {
     "url": "daily/2021/04/27/index.html",
-    "revision": "a534ad9ebbbdc1aaccb0ca0702f688ec"
+    "revision": "760f2a13df57d7c2afd6f3009c900cf7"
   },
   {
     "url": "daily/2021/04/28/index.html",
-    "revision": "1a4c97ce7132007a732099422c1265dd"
+    "revision": "bedb9a7e5d7252a11089dce5701cdbf5"
   },
   {
     "url": "daily/2021/04/29/index.html",
-    "revision": "98e91499561b3cd2864550c87532bba5"
+    "revision": "c2bf8b8a9fc191ab49924b8e8eea72af"
   },
   {
     "url": "daily/index.html",
-    "revision": "88f42fd933f5a146c85f777dae4a62d8"
+    "revision": "36b01eeacde411466a8888994654baf8"
   },
   {
     "url": "en/about/comment/index.html",
-    "revision": "6c2819e4cc33b5f7d9da9953dfb29710"
+    "revision": "dc6622ecb820990f38760bdca50c404c"
   },
   {
     "url": "en/about/contact/index.html",
-    "revision": "0d4ba062567bf0e357ecafa2cb4f239c"
+    "revision": "29b545989e08cc5e66f1803de04a4b93"
   },
   {
     "url": "en/about/index.html",
-    "revision": "e38d27146ae48f1460195e42e5d35774"
+    "revision": "ed5a5c2412fdb9d0eef696e5044e7953"
   },
   {
     "url": "en/about/sponsor/index.html",
-    "revision": "ed15ea13e5b6f9bc1fec3c5a24a9ad2c"
+    "revision": "6e0196f5bacebf4c906441d0de3bb88d"
   },
   {
     "url": "en/index.html",
-    "revision": "c4eb01ee3199e496ca80245f04c4c2ae"
+    "revision": "0cc3fd784d5f3e45a63a52091ddfeac5"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -651,27 +651,27 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9917efa259bf47da39418854dd5eb530"
+    "revision": "bff39020b5a8fe52d0d46880c2c20734"
   },
   {
     "url": "jp/about/comment/index.html",
-    "revision": "78ae7d342984f291f28d89142545efc9"
+    "revision": "25f336a4c329f44858fb1ab284eb5694"
   },
   {
     "url": "jp/about/contact/index.html",
-    "revision": "208bef15b5f6482d0726147c751c1f1a"
+    "revision": "d02af8d87ed666914b7c071f4af1d502"
   },
   {
     "url": "jp/about/index.html",
-    "revision": "cef1c4d23e32f36bed30f9b69c88716d"
+    "revision": "6da80bd775d861460c440b0bfb97bfc5"
   },
   {
     "url": "jp/about/sponsor/index.html",
-    "revision": "2aba9f9657a1916cd6260bebf49d9651"
+    "revision": "ff9f678f411f1e265b8a12ce1ce011a0"
   },
   {
     "url": "jp/index.html",
-    "revision": "0eb744a5535def375c327b09c5531568"
+    "revision": "80781d80e13c6a7f2ba84481c9a08459"
   },
   {
     "url": "js/jquery.fancybox.min.js",
@@ -683,23 +683,23 @@ self.__precacheManifest = [
   },
   {
     "url": "kr/about/comment/index.html",
-    "revision": "0bbe98c524d3be26999a4ef77483eb64"
+    "revision": "a3f11774eea1c12fdd9a3bb5dc13c283"
   },
   {
     "url": "kr/about/contact/index.html",
-    "revision": "f0774281b45c3e0d1597c5927c80afca"
+    "revision": "dd7e51c7401f7bcb1f8828075684e43e"
   },
   {
     "url": "kr/about/index.html",
-    "revision": "c369400060663cd232743e47625de7a0"
+    "revision": "4605d5a2c6d457c6d6cf7fece49779b4"
   },
   {
     "url": "kr/about/sponsor/index.html",
-    "revision": "4663cb7a11d829daf2629accb548c020"
+    "revision": "34986f0cc3855bc9b91e9651c716d24e"
   },
   {
     "url": "kr/index.html",
-    "revision": "2214637b1f2dfd4c173aa2844eba0b5a"
+    "revision": "e5b4456a649ffbfd81b1ce975a6eb454"
   },
   {
     "url": "logo.png",
@@ -707,23 +707,23 @@ self.__precacheManifest = [
   },
   {
     "url": "more/links/index.html",
-    "revision": "54b87c3d4a78e495e96e12f8f9a013cb"
+    "revision": "ab523c3bc292e85402928561b8181d83"
   },
   {
     "url": "more/music/index.html",
-    "revision": "15ca4d9ea1113f6ad834519ed94219ab"
+    "revision": "6967bc0f89fa80bf313d7a9e078fffed"
   },
   {
     "url": "more/photo/index.html",
-    "revision": "e03cf4847ef87682c253c5cc0d5cc31d"
+    "revision": "a75bf18cdafdb8550e6fb2e539b3ea17"
   },
   {
     "url": "more/video/index.html",
-    "revision": "666646bcca71e8209cffd6f617f391ec"
+    "revision": "99235491d6abb302368ad17b123a36d5"
   },
   {
     "url": "post/index.html",
-    "revision": "0649b87c9c7bd5b94ccc6f5e664cbc59"
+    "revision": "4a0ebbad9c4b18417a4e334b48244b31"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
