@@ -1,8 +1,8 @@
 module.exports = {
-  "/jp/more/": [
-    ["/jp/more/about", "《 私について 》"],
-    ["/jp/more/sponsor", "《 助けてください 》"],
-    ["/jp/more/contact", "《 連絡してください 》"],
-    ["/jp/more/comment", "《 伝言を残す 》"]
+  "/jp/about/": [
+    ["/jp/about/", "《 私について 》"],
+    ["/jp/about/sponsor", "《 助けてください 》"],
+    ["/jp/about/contact", "《 連絡してください 》"],
+    ["/jp/about/comment", "《 伝言を残す 》"]
   ]
 }

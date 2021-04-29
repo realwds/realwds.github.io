@@ -23,10 +23,16 @@ module.exports = {
     },
   ],
   "/post/": ["/post/"],
+  "/about/": [
+    ["/about/", "《 关于我 》"],
+    ["/about/sponsor", "《 赞助我 》"],
+    ["/about/contact", "《 联系我 》"],
+    ["/about/comment", "《 留个言 》"]
+  ],
   "/more/": [
-    ["/more/about", "《 关于我 》"],
-    ["/more/sponsor", "《 赞助我 》"],
-    ["/more/contact", "《 联系我 》"],
-    ["/more/comment", "《 留个言 》"]
+    ["/more/links", "《 网站 》"],
+    ["/more/video", "《 视频 》"],
+    ["/more/music", "《 音乐 》"],
+    ["/more/photo", "《 图片 》"],
   ]
 }

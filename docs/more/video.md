@@ -1,4 +1,12 @@
-# 视频清单
+---
+sidebarDepth: 0
+---
+
+# 视频
+
+::: tip 视频
+精选视频整理
+:::
 
 - [睡眠是你的超能力](https://www.bilibili.com/video/BV1uC4y1s75D)  【TED】睡眠是你的超能力
 

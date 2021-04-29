@@ -4,7 +4,7 @@ heroImage: /img/home.png
 heroText: 개인 사이트
 tagline: 지금 나 만 이 경망스럽다
 actionText: 이해 하기 시작 하 다 →
-actionLink: /kr/more/about
+actionLink: /kr/about
 # features:
 # - title: 学习
 #   details: 学习使我快乐

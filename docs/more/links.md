@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # 网站
 
 ::: tip 网站

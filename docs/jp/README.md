@@ -4,7 +4,7 @@ heroImage: /img/home.png
 heroText: 個人サイト
 tagline: 今は私一人だけです
 actionText: 分かり始める →
-actionLink: /jp/more/about
+actionLink: /jp/about
 # features:
 # - title: 学习
 #   details: 学习使我快乐

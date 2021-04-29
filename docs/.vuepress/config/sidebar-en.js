@@ -1,8 +1,8 @@
 module.exports = {
-  "/en/more/": [
-    ["/en/more/about", "《 About Me 》"],
-    ["/en/more/sponsor", "《 Sponsor Me 》"],
-    ["/en/more/contact", "《 Contact Me 》"],
-    ["/en/more/comment", "《 Leave a message 》"]
+  "/en/about/": [
+    ["/en/about/", "《 About Me 》"],
+    ["/en/about/sponsor", "《 Sponsor Me 》"],
+    ["/en/about/contact", "《 Contact Me 》"],
+    ["/en/about/comment", "《 Leave a message 》"]
   ]
 }
