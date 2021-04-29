@@ -4,7 +4,7 @@ heroImage: /img/home.png
 heroText: Personal Website
 tagline: At the moment, I'm in the lead
 actionText: Getting to know →
-actionLink: /en/about
+actionLink: /en/about/
 # features:
 # - title: 学习
 #   details: 学习使我快乐
