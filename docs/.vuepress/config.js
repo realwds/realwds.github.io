@@ -135,6 +135,12 @@ module.exports = {
           buttonText: "새로 고침"
         }
       }
+    }],
+    // 站点简洁链接
+    ['vuepress-plugin-clean-urls', {
+      normalSuffix: '/',
+      indexSuffix: '/',
+      notFoundPath: '/404.html',
     }]
   ]
 }
