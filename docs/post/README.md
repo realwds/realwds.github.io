@@ -4,6 +4,11 @@
 踩坑、杂谈、生活、吐槽。
 :::
 
+## 2021年04月30日
+
+- 放假倒计时一天。
+- 前天发布了一个 ```vuepress``` 的 npm 主题包，今天看了下有 ```111``` 的下载量，不错，不错。
+
 ## 2021年04月28日
 
 - 新搞一个 vuepress 的主题，改官方的默认主题 [Github 地址](https://github.com/realwds/vuepress-theme-realwds)
