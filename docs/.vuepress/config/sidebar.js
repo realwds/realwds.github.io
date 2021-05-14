@@ -4,6 +4,12 @@ module.exports = {
   "/daily/": [
     ["/daily/", "《 每日一剂 》"],
     {
+      title: '2021年05月',
+      collapsable: false,
+      sidebarDepth: 0,
+      children: readFileList("2021", "0s5")
+    },
+    {
       title: '2021年04月',
       collapsable: false,
       sidebarDepth: 0,
