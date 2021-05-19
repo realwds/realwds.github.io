@@ -4,6 +4,11 @@
 踩坑、杂谈、生活、吐槽。
 :::
 
+## 2021年05月19日
+
+- 今天早上看了百度统计，我天，那么多访客量，结果一仔细看，全是一个 ip 段，被爬虫了...
+- 眼皮耷拉啦是什么原因？太影响颜值了 😰
+
 ## 2021年05月18日
 
 - [博客主题](https://blog.realwds.com)改完了，怎么感觉有点太花花了，还是这个简约清新，改了那么久，可能审美疲劳了，我晕 😧
@@ -18,12 +23,12 @@
 ## 2021年04月30日
 
 - 放假倒计时一天。
-- 前天发布了一个 ```vuepress``` 的 npm 主题包，今天看了下有 ```111``` 的下载量，不错，不错。
+- 前天发布了一个 `vuepress` 的 npm 主题包，今天看了下有 `111` 的下载量，不错，不错。
 
 ## 2021年04月28日
 
 - 新搞一个 vuepress 的主题，改官方的默认主题 [Github 地址](https://github.com/realwds/vuepress-theme-realwds)
-- 下午研究了如何发布 npm 包，先去[官网注册](https://www.npmjs.com) => 验证邮箱 => ```npm login``` => ```npm publish``` 
+- 下午研究了如何发布 npm 包，先去[官网注册](https://www.npmjs.com) => 验证邮箱 => `npm login` => `npm publish` 
 
 ## 2021年04月22日
 
@@ -42,13 +47,13 @@
 ## 2021年04月19日
 
 - 前天虚拟机装 MacOS 系统，没有全屏，找了半天，最后发现靠谱的解决方案。[VMwareMacOS无法全屏](https://blog.csdn.net/qq_36292543/article/details/91515065)、[darwin.iso](https://crifan.github.io/popular_virtual_machine_vmware/website/usage_summary/vmware_tools/macos/darwin_iso.html)
-- 微信获取用户信息方法改了，之前的 ```wx.getUserInfo(Object object)``` 相当于拆分成 ```wx.getUserInfo(Object object)``` 和 ``` wx.getUserProfile(Object object)```，微信没事，净给我们找 trouble 😡。
+- 微信获取用户信息方法改了，之前的 `wx.getUserInfo(Object object)` 相当于拆分成 `wx.getUserInfo(Object object)` 和 `wx.getUserProfile(Object object)`，微信没事，净给我们找 trouble 😡。
 
 ## 2021年04月18日
 
-- 踩坑 ```npx create-react-app project``` 死活安装不上，```npm config list``` 最后才发现是设置了淘宝的镜像的问题，```npm config set registry="https://registry.npmjs.org/"``` 改回来后好使了，淘宝镜像不全，还是要用官方的。
+- 踩坑 `npx create-react-app project` 死活安装不上，`npm config list` 最后才发现是设置了淘宝的镜像的问题，`npm config set registry="https://registry.npmjs.org/"` 改回来后好使了，淘宝镜像不全，还是要用官方的。
 - 充了百度会员，然后把文件整理了一下，迁移到阿里云盘了。
-- 下午发现 GitHub Action 的规则改了，弄了半天，有个要全局安装的 ```npm install *** -g``` 因为权限不够，要加上sudo才可以。
+- 下午发现 GitHub Action 的规则改了，弄了半天，有个要全局安装的 `npm install *** -g` 因为权限不够，要加上sudo才可以。
 
 ## 2021年04月17日
 
