@@ -17,4 +17,17 @@ module.exports = [
   ['link', { rel: 'stylesheet', type: 'text/css', href: '/css/jquery.fancybox.min.css' }],
   ['script', { src: '/js/jquery.slim.min.js' }],
   ['script', { src: '/js/jquery.fancybox.min.js' }],
+  [
+    "script",
+    {},
+    `
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?1c864e242ec0611521bc38c65c51e1fe";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    `
+  ]
 ]
