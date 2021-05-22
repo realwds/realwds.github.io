@@ -4,6 +4,10 @@
 踩坑、杂谈、生活、吐槽。
 :::
 
+## 2021年05月22日
+
+- 电脑 C 盘满了，腾出 E 盘点空间给他，用的这两款工具 [DiskGenius](https://www.diskgenius.cn/)，[MiniTool Partition Wizard](https://www.partitionwizard.com/download.html)
+
 ## 2021年05月20日
 
 - 还是 GitHub Page 稳如老狗啊 👍
