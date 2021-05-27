@@ -5,22 +5,23 @@
 </template>
 
 <script>
-import 'xgplayer'
-import Music from 'xgplayer-music'
 
 export default {
   name: 'XiguaMusic',
   data() {
     return {
-      
+       Music: ""
     }
   },
   mounted() {
-    this.initMusic()
+    import("xgplayer-music").then(res => {
+      this.Music = res.default
+      this.initMusic()
+    })
   },
   methods: {
-    initMusic(){
-      new Music({
+    initMusic() {
+      new this.Music({
         id: 'mse-music',
         url: [{
           src: 'https://cdn.jsdelivr.net/gh/realwds/cdn@master/music/爱的可能 - 叶倩文.mp3', 
