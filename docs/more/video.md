@@ -8,4 +8,4 @@ sidebarDepth: 0
 精选视频整理
 :::
 
-<XiguaVideo />
+<xigua-video />

@@ -9,6 +9,7 @@ import 'xgplayer'
 import Music from 'xgplayer-music'
 
 export default {
+  name: 'XiguaMusic',
   data() {
     return {
       

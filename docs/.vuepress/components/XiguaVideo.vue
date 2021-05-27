@@ -6,6 +6,7 @@
 import Player from 'xgplayer'
 
 export default {
+  name: 'XiguaVideo',
   data() {
     return {
       
