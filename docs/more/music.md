@@ -8,4 +8,4 @@ sidebarDepth: 0
 精选音乐整理
 :::
 
-<xigua-music />
+<XiguaMusic />
