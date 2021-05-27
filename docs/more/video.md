@@ -7,3 +7,5 @@ sidebarDepth: 0
 ::: tip 视频
 精选视频整理
 :::
+
+<xigua-video />

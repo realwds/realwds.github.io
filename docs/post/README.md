@@ -4,6 +4,11 @@
 踩坑、杂谈、生活、吐槽。
 :::
 
+## 2021年05月27日
+
+- `pjax` 属实是坑啊，整一上午还是有 `bug`。
+- [西瓜视频播放器](https://v2.h5player.bytedance.com/)挺好用，[网站](/more/video/)我给加上了。
+
 ## 2021年05月22日
 
 - 电脑 C 盘满了，腾出 E 盘点空间给他，用的这两款工具 [DiskGenius](https://www.diskgenius.cn/)，[MiniTool Partition Wizard](https://www.partitionwizard.com/download.html)
