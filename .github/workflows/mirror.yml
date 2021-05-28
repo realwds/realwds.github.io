@@ -2,7 +2,7 @@ name: MIRROR CI
 on:
   push:
     branches:
-      - master
+      - source
 jobs:
   mirror_to_gitee:
     runs-on: ubuntu-latest
