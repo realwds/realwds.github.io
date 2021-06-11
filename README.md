@@ -1,14 +1,11 @@
-# realwds's website
+# 網站已經遭到查禁 
 
-> 2014 Anhui University of science and technology graduate, <br />
-> major in information and computing science, is a kicker of mathematics department.<br />
-> Now living in Hangzhou, Zhejiang Province, front-end typist, <br />
-> The most commonly used buttons ```CTRL+C``` ```CTRL+V```。
+## (This Domain Has Been Seized)
 
-### My Project
+已經違反中華民國著作權法第九十一條及九十二條規範，全部或部分內容涉屬盜版，正進入司法偵查中。
 
-- [**sina news**](https://realwds.github.io/sina-news/)
-- [**sina gif**](https://realwds.github.io/sina-gif/)
-- [**vuepress theme blog**](https://realwds.github.io/vuepress-blog/)
-- [**hexo theme blog**](https://realwds.github.io/hexo-blog/)
-- [**gulp person website**](https://realwds.github.io/gulp-person-website/)
+The website is in violation of the Copyright Act of the Republic of China (Taiwan) for its unauthorized use of materials. Investigation is currently underway.
+
+內政部警政署刑事警察局電偵大隊 敬啟
+
+Criminal Investigation Bureau（Taiwan）
