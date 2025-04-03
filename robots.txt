@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://realwds.com/sitemap.xml
+Sitemap: https://realwds.com/baidusitemap.xml
