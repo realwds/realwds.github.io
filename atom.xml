@@ -215,9 +215,9 @@
     
     <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
     
-    <category term="博客部署" scheme="https://realwds.com/tags/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
-    
     <category term="vercel" scheme="https://realwds.com/tags/vercel/"/>
+    
+    <category term="博客部署" scheme="https://realwds.com/tags/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
@@ -263,11 +263,11 @@
     <category term="Butterfly魔改" scheme="https://realwds.com/categories/Butterfly%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="精选" scheme="https://realwds.com/tags/%E7%B2%BE%E9%80%89/"/>
-    
     <category term="butterfly" scheme="https://realwds.com/tags/butterfly/"/>
     
     <category term="图像识别" scheme="https://realwds.com/tags/%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/"/>
+    
+    <category term="精选" scheme="https://realwds.com/tags/%E7%B2%BE%E9%80%89/"/>
     
   </entry>
   
@@ -313,15 +313,15 @@
     <category term="Git相关" scheme="https://realwds.com/categories/Git%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="持续集成" scheme="https://realwds.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
-    
-    <category term="CI/CD" scheme="https://realwds.com/tags/CI-CD/"/>
+    <category term="精选" scheme="https://realwds.com/tags/%E7%B2%BE%E9%80%89/"/>
     
     <category term="小程序" scheme="https://realwds.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
     <category term="GitLab" scheme="https://realwds.com/tags/GitLab/"/>
     
-    <category term="精选" scheme="https://realwds.com/tags/%E7%B2%BE%E9%80%89/"/>
+    <category term="持续集成" scheme="https://realwds.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+    <category term="CI/CD" scheme="https://realwds.com/tags/CI-CD/"/>
     
   </entry>
   
@@ -342,11 +342,11 @@
     <category term="Git相关" scheme="https://realwds.com/categories/Git%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
-    
     <category term="持续集成" scheme="https://realwds.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     
     <category term="CI/CD" scheme="https://realwds.com/tags/CI-CD/"/>
+    
+    <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
     
   </entry>
   
@@ -367,11 +367,11 @@
     <category term="Git相关" scheme="https://realwds.com/categories/Git%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
-    
     <category term="持续集成" scheme="https://realwds.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     
     <category term="CI/CD" scheme="https://realwds.com/tags/CI-CD/"/>
+    
+    <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
     
   </entry>
   
@@ -392,11 +392,11 @@
     <category term="Git相关" scheme="https://realwds.com/categories/Git%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
-    
     <category term="持续集成" scheme="https://realwds.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     
     <category term="CI/CD" scheme="https://realwds.com/tags/CI-CD/"/>
+    
+    <category term="GitHub" scheme="https://realwds.com/tags/GitHub/"/>
     
   </entry>
   
